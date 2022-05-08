@@ -38,5 +38,6 @@
     "rust-analyzer.inlayHints.parameterHints": false,
     "C_Cpp.renameRequiresIdentifier": false,
     "window.zoomLevel": 1,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontFamily": "monospace"
 }

@@ -6,7 +6,7 @@
 - clean:
     ~/:
     ~/.config:
-      recursive: true
+        recursive: true
 
 - link:
     ~/.xprofile: xprofile
