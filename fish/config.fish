@@ -4,3 +4,4 @@ end
 
 set fish_greeting
 alias l "ls -hAGg"
+fish_add_path /home/crispypin/bin/scripts

@@ -21,6 +21,7 @@
     ~/.config/kitty/kitty.conf: kitty.conf
     ~/.config/btop/btop.conf: btop.conf
     ~/.config/mpv: mpv
+    ~/bin/scripts: scripts
 
 - create:
     - ~/downloads
