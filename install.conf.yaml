@@ -3,7 +3,10 @@
         create: true
         force: true
 
-- clean: ["~"]
+- clean:
+    ~/:
+    ~/.config:
+      recursive: true
 
 - link:
     ~/.xprofile: xprofile
