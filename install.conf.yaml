@@ -14,6 +14,9 @@
     ~/.config/picom/picom.conf: picom.conf
     ~/.config/user-dirs.dirs: user-dirs.dirs
     ~/.config/VSCodium/User/settings.json: vscodium.json
+    ~/.config/templates: templates
+    ~/.config/kitty/kitty.conf: kitty.conf
+    ~/.config/btop/btop.conf: btop.conf
 
 - create:
     - ~/downloads
@@ -23,3 +26,4 @@
     - ~/music
     - ~/proj
     - ~/bin
+    - ~/.desktop
