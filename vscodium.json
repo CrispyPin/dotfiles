@@ -1,0 +1,42 @@
+{
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "update.mode": "manual",
+    "update.showReleaseNotes": false,
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    "editor.wordWrap": "on",
+    "editor.quickSuggestionsDelay": 0,
+    "python.autoComplete.addBrackets": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.hover.delay": 10,
+    "workbench.hover.delay": 50,
+    "editorconfig.generateAuto": false,
+    "window.menuBarVisibility": "toggle",
+    "liveServer.settings.root": "docs/",
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.insertSpaces": false,
+    "editor.fontFamily": "sans, mono",
+    "editor.minimap.renderCharacters": false,
+    "Lua.telemetry.enable": false,
+    "Lua.workspace.library": [
+        "~/proj/forks/awesome"
+    ],
+    "color-highlight.markRuler": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.experiments.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "rust.clippy_preference": "on",
+    "workbench.colorTheme": "Catppuccin",
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "C_Cpp.renameRequiresIdentifier": false,
+    "window.zoomLevel": 1,
+    "editor.renderWhitespace": "all"
+}

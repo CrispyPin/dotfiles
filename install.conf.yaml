@@ -1,6 +1,25 @@
 - defaults:
     link:
-      create: true
+        create: true
+        force: true
 
 - clean: ["~"]
 
+- link:
+    ~/.xprofile: xprofile
+    ~/.config/alacritty/alacritty.yml: alacritty.yml
+    ~/.config/fastfetch/config.conf: fastfetch.conf
+    ~/.config/redshift/redshift.conf: redshift.conf
+    ~/.config/fish: fish
+    ~/.config/picom/picom.conf: picom.conf
+    ~/.config/user-dirs.dirs: user-dirs.dirs
+    ~/.config/VSCodium/User/settings.json: vscodium.json
+
+- create:
+    - ~/downloads
+    - ~/documents
+    - ~/pictures
+    - ~/videos
+    - ~/music
+    - ~/proj
+    - ~/bin
