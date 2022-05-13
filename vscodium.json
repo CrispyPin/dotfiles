@@ -40,5 +40,6 @@
     "window.zoomLevel": 1,
     "editor.renderWhitespace": "all",
     "terminal.integrated.fontFamily": "monospace",
-    "markdown.preview.fontFamily": "sans"
+    "markdown.preview.fontFamily": "sans",
+    "editor.bracketPairColorization.enabled": false
 }

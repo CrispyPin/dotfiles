@@ -4,4 +4,5 @@ end
 
 set fish_greeting
 alias l "ls -hAGg"
+alias wtr "weather.sh"
 fish_add_path /home/crispypin/bin/scripts
