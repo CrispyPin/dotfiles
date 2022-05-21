@@ -1,0 +1,20 @@
+{
+	".*": {
+		"filename": true,
+		"hdri": "~/pictures/f3d_bg.png",
+		"bg-color": "0.5,0.5,0.55",
+		"roughness": 0.7,
+		"blur-background": true,
+		"progress": true,
+		"edges": false,
+		"fxaa": true,
+		"axis": true,
+		"grid": true,
+		"fps": true
+	}/*, // camera setting for fbx files exported with default settings in blender (they end up 100x bigger)
+	".*fbx": {
+		"camera-position": "140,140,460",
+		"camera-focal-point": "-15,130,0"
+	}//*/
+}
+	

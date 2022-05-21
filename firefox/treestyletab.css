@@ -1,0 +1,12 @@
+tab-item {
+  font-family: sans;
+  font-size: 14px;
+  height: 20px;
+}
+
+/* Show title of unread tabs */
+:root.sidebar tab-item.unread .label-content {
+  color: orange !important;
+  font-style: italic !important;
+  text-decoration: underline;
+}
