@@ -41,5 +41,6 @@
     "markdown.preview.fontFamily": "sans",
     "editor.bracketPairColorization.enabled": false,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "editor.unicodeHighlight.nonBasicASCII": false
 }
