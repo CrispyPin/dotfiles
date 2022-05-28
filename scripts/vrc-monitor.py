@@ -28,6 +28,6 @@ os.system("killall vrmonitor")
 time.sleep(2)
 # start steamvr
 os.system("steam steam://rungameid/250820")
-time.sleep(7)
 # start vrchat
-os.system("steam steam://rungameid/438100")
+# time.sleep(7)
+# os.system("steam steam://rungameid/438100")

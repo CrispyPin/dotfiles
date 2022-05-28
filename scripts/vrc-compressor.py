@@ -16,7 +16,6 @@ def delay(seconds=30):
 		time.sleep(0.1)
 
 def scan():
-	print("scanning")
 	date = datetime.datetime.now()
 	month = f"{date.year}-{date.month:02d}/"
 	path = ROOT_DIR + month
@@ -29,7 +28,9 @@ def scan():
 				# input(f)
 				call(f"convert {f} temp.{f}", cwd=path, shell=True)
 				call(f"mv temp.{f} {f}", cwd=path, shell=True)
+				print(f"compressed {f}")
 			PROCESSED.append(f)
+	print("done")
 
 while True:
 	scan()
