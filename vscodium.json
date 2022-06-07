@@ -42,5 +42,6 @@
     "editor.bracketPairColorization.enabled": false,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "window.zoomLevel": 1,
-    "editor.unicodeHighlight.nonBasicASCII": false
+    "rust-analyzer.cargo.buildScripts.enable": true,
+    "editor.fontLigatures": true
 }
