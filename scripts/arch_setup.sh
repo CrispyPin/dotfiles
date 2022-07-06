@@ -28,13 +28,6 @@ git clone https://github.com/crispypin/awesomewm-config .config/awesome
 
 mkdir -p archive bin documents downloads music pictures proj temp uni videos .templates .desktop
 
-cd proj
-git clone https://github.com/crispypin/crispypin
-cp -f crispypin/config/user-dirs.dirs ~/.config/
-xdg-user-dirs-update
-rmdir Desktop/ Downloads/ Documents/ Pictures/ Music/ Videos/ Templates/ Public/
-
-
 yay -S --needed \
 steam obs-studio-git linux-headers v4l2loopback-dkms \
 blender btop godot gimp \
