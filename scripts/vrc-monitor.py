@@ -2,11 +2,13 @@
 import time
 import os
 
+# exit()
+
 def notify_fail():
-	os.system('notify-send "Restarting SteamVR" "VRChat died again :(" --icon /home/crispypin/pictures/emotes/screech.gif')
+	os.system('notify-send "Restarting SteamVR" "<VR game>" died again :(" --icon /home/crispypin/pictures/emotes/screech.gif')
 
 def notify_ok():
-	os.system('notify-send "Go play VRChat" "It stayed open for 150s" --icon /home/crispypin/pictures/emotes/frogchamp.png')
+	os.system('notify-send "Go play <VR game>" "It stayed open for 150s" --icon /home/crispypin/pictures/emotes/frogchamp.png')
 
 STATUSFILE = "/tmp/VRC_RUNNING"
 
@@ -25,7 +27,7 @@ else:
 
 ## restart steam
 os.system("killall vrmonitor")
-time.sleep(2)
+time.sleep(5)
 # start steamvr
 os.system("steam steam://rungameid/250820")
 # start vrchat

@@ -32,7 +32,8 @@
     - ~/music
     - ~/proj
     - ~/bin
-    - ~/.desktop
+    - ~/nondesktop
 
 - shell:
     - [touch ~/dotfiles/location.txt]
+    - [xdg-user-dirs-update]

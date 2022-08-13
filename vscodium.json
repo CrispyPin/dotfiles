@@ -8,7 +8,6 @@
     "files.exclude": {
         "**/*.meta": true
     },
-    "editor.wordWrap": "on",
     "editor.quickSuggestionsDelay": 0,
     "python.autoComplete.addBrackets": true,
     "editor.suggestSelection": "first",
@@ -20,7 +19,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "sans, mono",
+    "editor.fontFamily": "sans, \"linja pona\", mono",
     "editor.minimap.renderCharacters": false,
     "Lua.telemetry.enable": false,
     "Lua.workspace.library": [
@@ -41,7 +40,8 @@
     "markdown.preview.fontFamily": "sans",
     "editor.bracketPairColorization.enabled": false,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "window.zoomLevel": 1,
     "rust-analyzer.cargo.buildScripts.enable": true,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 1
 }
