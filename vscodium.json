@@ -19,7 +19,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "sans, \"linja pona\", mono",
+    "editor.fontFamily": "monoa,sans, \"linja pona\", mono",
     "editor.minimap.renderCharacters": false,
     "Lua.telemetry.enable": false,
     "Lua.workspace.library": [
@@ -33,7 +33,7 @@
     "editor.copyWithSyntaxHighlighting": false,
     "terminal.integrated.defaultProfile.linux": "fish",
     "rust.clippy_preference": "on",
-    "workbench.colorTheme": "Catppuccin",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "C_Cpp.renameRequiresIdentifier": false,
     "editor.renderWhitespace": "all",
     "terminal.integrated.fontFamily": "monospace",
@@ -43,5 +43,6 @@
     "rust-analyzer.cargo.buildScripts.enable": true,
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "redhat.telemetry.enabled": false
 }
