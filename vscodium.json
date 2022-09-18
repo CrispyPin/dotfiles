@@ -19,7 +19,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "monoa,sans, \"linja pona\", mono",
+    "editor.fontFamily": "mono, sans, \"linja pona\", mono",
     "editor.minimap.renderCharacters": false,
     "Lua.telemetry.enable": false,
     "Lua.workspace.library": [
@@ -43,6 +43,8 @@
     "rust-analyzer.cargo.buildScripts.enable": true,
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
-    "window.zoomLevel": 1,
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.glyphMargin": false,
+    "window.zoomLevel": 1
 }

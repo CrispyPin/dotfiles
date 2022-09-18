@@ -22,6 +22,7 @@
     ~/.config/btop/btop.conf: btop.conf
     ~/.config/mpv: mpv
     ~/.config/f3d: f3d
+    ~/.config/fontconfig: fontconfig
     ~/bin/scripts: scripts
 
 - create:
