@@ -19,7 +19,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "mono, sans, \"linja pona\", mono",
+    "editor.fontFamily": "sans, mono, \"linja pona\", mono",
     "editor.minimap.renderCharacters": false,
     "Lua.telemetry.enable": false,
     "Lua.workspace.library": [
@@ -46,5 +46,7 @@
     "redhat.telemetry.enabled": false,
     "files.trimTrailingWhitespace": true,
     "editor.glyphMargin": false,
-    "window.zoomLevel": 1
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 1,
+    "omnisharp.useModernNet": false
 }

@@ -23,6 +23,7 @@
     ~/.config/mpv: mpv
     ~/.config/f3d: f3d
     ~/.config/fontconfig: fontconfig
+    ~/.config/rustfmt: rustfmt
     ~/bin/scripts: scripts
 
 - create:
