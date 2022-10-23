@@ -1,0 +1,36 @@
+super + F7
+	xdotool mousemove_relative -- -16 0
+
+super + F9
+	xdotool mousemove_relative 16 0
+
+super + F3
+	xdotool mousemove_relative 0 -16
+
+super + F8
+	xdotool mousemove_relative 0 16
+
+super + control + F7
+	xdotool mousemove_relative -- -256 0
+
+super + control + F9
+	xdotool mousemove_relative 256 0
+
+super + control + F3
+	xdotool mousemove_relative 0 -256
+
+super + control + F8
+	xdotool mousemove_relative 0 256
+
+
+# F13 = left click
+XF86Tools
+	xdotool click 1
+
+# F14 = right click
+XF86Launch5
+	xdotool click 3
+
+# F15 = middle click
+XF86Launch6
+	xdotool click 2
