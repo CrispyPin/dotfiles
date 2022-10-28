@@ -25,6 +25,7 @@
     ~/.config/fontconfig: fontconfig
     ~/.config/rustfmt: rustfmt
     ~/.config/sxhkd: sxhkd
+    ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
     ~/bin/scripts: scripts
 
 - create:
