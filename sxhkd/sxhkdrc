@@ -34,3 +34,12 @@ XF86Launch5
 # F15 = middle click
 XF86Launch6
 	xdotool click 2
+
+# F16 = scroll up
+XF86Launch7
+	xdotool click 4
+
+# F17 = scroll down
+XF86Launch8
+	xdotool click 5
+

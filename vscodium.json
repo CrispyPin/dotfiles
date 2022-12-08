@@ -47,6 +47,6 @@
     "editor.glyphMargin": false,
     "editor.formatOnSave": true,
     "omnisharp.useModernNet": false,
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Visual Studio Dark",
     "window.zoomLevel": 1
 }
