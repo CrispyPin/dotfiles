@@ -1,0 +1,21 @@
+
+MHG.AndGate:
+    PegRestrictions:
+        InputCountMin: 2
+        InputCountMax: 32
+        OutputCountMin: 1
+        OutputCountMax: 1
+
+MHG.StandingDisplay:
+    PegRestrictions:
+        InputCountMin: 1
+        InputCountMax: 9
+        OutputCountMin: 0
+        OutputCountMax: 0
+
+MHG.PanelDisplay:
+    PegRestrictions:
+        InputCountMin: 1
+        InputCountMax: 9
+        OutputCountMin: 0
+        OutputCountMax: 0

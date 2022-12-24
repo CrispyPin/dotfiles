@@ -1,0 +1,683 @@
+# These are the settings that can be swapped by using different profiles.
+# Every setting in here has an in-game UI to edit it.
+MHG.Graphics.FullscreenResolution:
+    x: 1920
+    y: 1080
+LogicUI.Palettes.CustomPalette:
+    Primary: 414141
+    PrimaryHovered: 464646
+    PrimaryPressed: 434343
+    Secondary: 5A5A5A
+    SecondaryHovered: 646464
+    SecondaryPressed: 5F5F5F
+    Tertiary: 2D2D2D
+    TertiaryHovered: 373737
+    TertiaryPressed: 323232
+    Quaternary: C8C8C8
+    QuaternaryHovered: F0F0F0
+    QuaternaryPressed: DCDCDC
+    Accent: 1D7CEA
+    AccentHovered: 4892E7
+    AccentPressed: 266CBE
+    AccentModified: 1C3CC8
+    AccentModifiedHovered: 234CFA
+    AccentModifiedPressed: 1A41E9
+    Graphic_Primary: FFFFFF
+    Graphic_Secondary: 303030
+    Text_Primary: FFFFFF
+    Text_Secondary: 000000
+    InputField: FFFFFF
+    InputFieldHovered: F0F0F0
+    InputFieldPressed: DCDCDC
+    InputFieldText: 000000
+MHG.Resizing.EdgeArrowsColor: 00BCFF
+MHG.Resizing.CornerArrowsColor: AF00DA
+MHG.Resizing.ArrowsOpacity: 0.5
+MHG.Audio.MusicFrequency: Never
+MHG.Audio.MusicComponentsStopGameMusic: true
+MHG.Audio.SpeakerSetup: Stereo
+MHG.Audio.MuteInBackground: false
+MHG.Audio.MasterVolume: 80
+MHG.Audio.MusicVolume: 100
+MHG.Audio.UIVolume: 100
+MHG.Audio.BuildingSFXVolume: 100
+MHG.Audio.InteractionSFXVolume: 100
+MHG.Audio.MusicComponentsVolume: 100
+MHG.Audio.FootstepsVolume: 100
+MHG.PauseOnDefocus: false
+MHG.OutlineBoards: true
+MHG.OutlineComponents: true
+MHG.OutlinePegs: true
+MHG.OutlineWires: true
+MHG.OutlineConnectedPegWires: true
+MHG.OutlineInteractables: true
+MHG.Graphics.RenderDistance.LimitRenderDistance: true
+MHG.Graphics.RenderDistance.MaxRenderDistance: 600
+MHG.ScreenshotResolutionScale: 1
+MHG.ScreenshotSounds: true
+MHG.ScreenshotEncoding: JPG
+MHG.ScreenshotJpgQuality: 100
+MHG.Avatar.OfflineName: Crispy
+MHG.Avatar.BodyColor: 9B4EE5
+MHG.Avatar.FaceColor: 010032
+MHG.Avatar.SHINYBOBBY: false
+MHG.Avatar.BobbyStyle: Casual
+MHG.FieldOfView: 80
+MHG.SeeYourOwnShadow: false
+MHG.NametagScale: 1
+MHG.NametagOpacity: 1
+MHG.ShowNametags: Always
+MHG.NametagsFollowCamera: true
+MHG.RealtimeReflections.Enabled: true
+MHG.RealtimeReflections.UpdateMode: Frame
+MHG.RealtimeReflections.UpdateInterval_Frame: 1
+MHG.RealtimeReflections.UpdateInterval_Seconds: 1
+MHG.RealtimeReflections.TimeSlicing: NoTimeSlicing
+MHG.RealtimeReflections.CubemapResolution: _256
+MHG.RealtimeReflections.InterreflectionBounces: 2
+MHG.Crouching.CrouchTime: 0.3
+MHG.Crouching.ScaleWhenCrouching: 0.3
+MHG.Flying.LockFlightYAxis: true
+MHG.PlayerGravity.PlayerGravityScale: 2
+MHG.Jumping.JumpSpeed: 7
+MHG.Jumping.MaxInverseCoyoteTime: 0.2
+MHG.Looking.ControlSensitivityAxesIndividually: false
+MHG.Looking.SensitivityMaster: 30
+MHG.Looking.SensitivityX: 10
+MHG.Looking.SensitivityY: 10
+MHG.Looking.InvertAxisX: false
+MHG.Looking.InvertAxisY: false
+MHG.Looking.SmoothLooking: false
+MHG.Looking.SmoothLookingPower: 30
+MHG.Looking.SecondaryLookingControl: GamepadRightStick
+MHG.MovementMomentum.PlayerHasMomentum: true
+MHG.MovementMomentum.GroundAcceleration: 10
+MHG.MovementMomentum.AirControlAcceleration: 4
+MHG.MovementMomentum.AirDeceleration: 0.3
+MHG.MovementMomentum.FlyHorizontalAcceleration: 6
+MHG.MovementMomentum.FlyVerticalAcceleration: 10
+MHG.Movement.PlayerMovementAnalogControl: GamepadLeftStick
+MHG.MovementSpeed.GroundNormal: 5
+MHG.MovementSpeed.GroundRunning: 30
+MHG.MovementSpeed.FlyHorizontalNormal: 5
+MHG.MovementSpeed.FlyHorizontalRunning: 60
+MHG.MovementSpeed.FlyVerticalNormal: 4
+MHG.MovementSpeed.FlyVerticalRunning: 10
+MHG.Graphics.DrawShadows: true
+MHG.Graphics.DrawShadowsOnAdditionalLights: false
+MHG.Graphics.ShadowDistance: 50
+MHG.Graphics.MainLightShadowResolution: _2048
+MHG.Graphics.AdditionalLightShadowResolution: _512
+MHG.Graphics.ShadowCascades: FourCascades
+MHG.Graphics.SoftShadowsEnabled: true
+MHG.Graphics.OutlineThickness: 2
+MHG.Graphics.OutlineFill: 20
+MHG.Graphics.OutlineIntensity: 75
+MHG.Graphics.OutlineCorners: false
+MHG.Graphics.AmbientOcclusionEnabled: true
+MHG.Graphics.BloomEnabled: false
+MHG.Graphics.AntiAliasing: _4x
+MHG.Graphics.MaxFPS: 60
+MHG.Graphics.RenderScale: 1
+MHG.Graphics.Vsync: SingleBuffered
+MHG.Graphics.FullscreenMode: Windowed
+MHG.Graphics.ShaderQuality.BarrierShaderVariant: _2D
+LogicUI.ColorChoosing.FunSpinnyCircle: false
+LogicUI.ColorChoosing.FunSpinnySquare: false
+LogicUI.ColorChoosing.FunSpinnyTriangle: false
+LogicUI.ColorChoosing.ColorPickerStyle: Triangle
+MHG.ColorChoosing.QuickColorChooserStateOnMenuOpen: QuickMenu
+LogicUI.Scrolling.ScrollSensitivity: 50
+LogicUI.Scrolling.SmoothScrolling: true
+LogicUI.Scrolling.ScrollSmoothTime: 0.15
+LogicUI.Scrolling.ScrollEaseMode: Unset
+LogicUI.ReorderableGroupDragMode: ClickAndDrag
+LogicUI.InputFields.CaretWidth: 2
+LogicUI.InputFields.BlinkCaret: true
+LogicUI.InputFields.CaretBlinkRate: 0.85
+LogicUI.InputFields.CaretColorMode: SameAsText
+LogicUI.InputFields.CustomCaretColor: 1034A6
+LogicUI.HoverTags.Enabled: true
+LogicUI.HoverTags.TextSize: 30
+LogicUI.HoverTags.Delay: 0
+LogicUI.Palettes.ActivePalette: O'Dowd
+LogicUI.HoverTags.ShowHoverTagsOnLinks: true
+MHG.EnableDarkenedMenuBackgrounds: true
+MHG.MenuBackgroundDarkness: 0.5
+MHG.MenuBackgroundBlurriness: 1
+MHG.EnableBlurredMenuBackgrounds: true
+MHG.CrosshairStyle: MHG/crosshairs/crosshair001.png
+MHG.HighContrastCrosshair: false
+MHG.CrosshairColor: 000000
+MHG.CrosshairOpacity: 1
+MHG.CrosshairScale: 1
+MHG.Chat.ShowUnderlay: true
+MHG.Chat.UnderlayOpacity: 0.6
+MHG.Chat.FadeMessages: true
+MHG.Chat.MessageStayTime: 10
+MHG.Chat.MessageFadeTime: 0.5
+MHG.Chat.MessagesColorMode: ColorfulNames
+MHG.Chat.ShowLinkWarningPopup: true
+MHG.QuickCloseMenus: true
+MHG.Audio.PauseMusicInPauseMenu: false
+MHG.Audio.FancyMusicEffectsInPauseMenu: true
+MHG.HelpMenuStartsOpen: false
+FancyInput.MaxTimeBetweenInputTaps: 0.3
+FancyInput.TriggerBindings:
+    MHG.MoveForward:
+        Options:
+            - F
+    MHG.MoveBackward:
+        Options:
+            - S
+    MHG.MoveLeft:
+        Options:
+            - R
+    MHG.MoveRight:
+        Options:
+            - T
+    MHG.Sprint:
+        Options:
+            - LeftShift
+    MHG.Jump:
+        Options:
+            - A
+    MHG.Crouch:
+        Options:
+            - C -TapToToggle
+    MHG.ToggleFlight:
+        Options:
+            - MHG.Jump*2
+    MHG.FlyUp:
+        Options:
+            - MHG.Jump
+    MHG.FlyDown:
+        Options:
+            - C
+    MHG.Place:
+        Options:
+            - LeftClick
+    MHG.DrawWire:
+        Options:
+            - LeftClick
+    MHG.Undo:
+        Options:
+            - LeftCtrl + D
+    MHG.Redo:
+        Options:
+            - LeftShift + LeftCtrl + D
+    MHG.MultiSelect:
+        Options:
+            - X
+    MHG.OpenActionWheel:
+        Options:
+            - RightClick
+    MHG.Grab:
+        Options:
+            - G
+    MHG.Clone:
+        Options:
+            - MHG.Mod + MHG.Grab
+    MHG.EditComponent:
+        Options:
+            - LeftShift + X
+    MHG.ResizeComponent:
+        Options:
+            - V
+    MHG.Delete:
+        Options:
+            - B
+    MHG.RotateClockwise:
+        Options:
+            - P
+    MHG.RotateCounterclockwise:
+        Options:
+            - W
+    MHG.FineRotateClockwise:
+        Options:
+            - MHG.Mod + MHG.RotateClockwise
+    MHG.FineRotateCounterclockwise:
+        Options:
+            - MHG.Mod + MHG.RotateCounterclockwise
+    MHG.Flip:
+        Options:
+            - LeftCtrl + F
+    MHG.CancelPlacing:
+        Options:
+            - RightClick
+    MHG.ToggleBoardFlatness:
+        Options:
+            - LeftCtrl + T
+    MHG.BoardRotationUp:
+        Options:
+            - LeftShift + MHG.RotateClockwise
+    MHG.BoardRotationDown:
+        Options:
+            - LeftShift + MHG.RotateCounterclockwise
+    MHG.IncreaseOffsetX:
+        Options:
+            - L
+    MHG.DecreaseOffsetX:
+        Options:
+            - J
+    MHG.IncreaseOffsetY:
+        Options:
+            - I
+    MHG.DecreaseOffsetY:
+        Options:
+            - K
+    MHG.ResetOffset:
+        Options:
+            - Comma
+    MHG.OffsetHold:
+        Options:
+            - LeftAlt
+    MHG.IncreaseMultiWirePlacingInterval:
+        Options:
+            - ScrollUp
+            - P
+    MHG.DecreaseMultiWirePlacingInterval:
+        Options:
+            - ScrollDown
+            - W
+    MHG.NextHotbarItem:
+        Options:
+            - ScrollDown
+            - Equals
+            - NumpadPlus
+    MHG.PreviousHotbarItem:
+        Options:
+            - ScrollUp
+            - Minus
+            - NumpadMinus
+    MHG.PickComponent:
+        Options:
+            - MiddleClick
+    MHG.PickUpComponent:
+        Options:
+            - MHG.Mod + MHG.PickComponent
+    MHG.MoveSelectedHotbarItemLeft:
+        Options:
+    MHG.MoveSelectedHotbarItemRight:
+        Options:
+    MHG.MoveSelectedHotbarToLeftEnd:
+        Options:
+    MHG.MoveSelectedHotbarToRightEnd:
+        Options:
+    MHG.RemoveSelectedHotbarItem:
+        Options:
+    MHG.Mod:
+        Options:
+            - LeftCtrl
+    MHG.TakeScreenshot:
+        Options:
+            - F2
+    MHG.OpenScreenshotsFolder:
+        Options:
+            - MHG.Mod + MHG.TakeScreenshot
+    MHG.OpenDebugConsole:
+        Options:
+            - Backquote
+    MHG.Interact:
+        Options:
+            - LeftClick
+    MHG.Zoom:
+        Options:
+            - LeftCtrl + R -TapToToggle
+    MHG.PauseGame:
+        Options:
+            - Escape
+    MHG.OpenSelectionMenu:
+        Options:
+            - Tab
+    MHG.OpenChat:
+        Options:
+            - LeftCtrl + S
+    MHG.OpenTeleportMenu:
+        Options:
+            - F8
+    MHG.OpenSimulationSpeedMenu:
+        Options:
+            - F9
+    MHG.ToggleSimulationPaused:
+        Options:
+            - F10
+    MHG.StepSimulation:
+        Options:
+            - LeftShift + MHG.ToggleSimulationPaused
+            - RightShift + MHG.ToggleSimulationPaused
+    MHG.ToggleUI:
+        Options:
+            - F1
+    MHG.ToggleFPS:
+        Options:
+            - F3
+    MHG.ToggleCoordinates:
+        Options:
+            - F4
+    MHG.ToggleHelp:
+        Options:
+            - F6
+    MHG.LookUp:
+        Options:
+            - UpArrow
+    MHG.LookDown:
+        Options:
+            - DownArrow
+    MHG.LookLeft:
+        Options:
+            - LeftArrow
+    MHG.LookRight:
+        Options:
+            - RightArrow
+    MHG.SelectSlot_1:
+        Options:
+            - Digit1
+            - Numpad1
+    MHG.SelectSlot_2:
+        Options:
+            - Digit2
+            - Numpad2
+    MHG.SelectSlot_3:
+        Options:
+            - Digit3
+            - Numpad3
+    MHG.SelectSlot_4:
+        Options:
+            - Digit4
+            - Numpad4
+    MHG.SelectSlot_5:
+        Options:
+            - Digit5
+            - Numpad5
+    MHG.SelectSlot_6:
+        Options:
+            - Digit6
+            - Numpad6
+    MHG.SelectSlot_7:
+        Options:
+            - Digit7
+            - Numpad7
+    MHG.SelectSlot_8:
+        Options:
+            - Digit8
+            - Numpad8
+    MHG.SelectSlot_9:
+        Options:
+            - Digit9
+            - Numpad9
+    MHG.SelectSlot_10:
+        Options:
+            - Digit0
+            - Numpad0
+    MHG.SelectSlot_11:
+        Options:
+            - MHG.SelectSlot_1*2
+            - MHG.Mod + MHG.SelectSlot_1
+    MHG.SelectSlot_12:
+        Options:
+            - MHG.SelectSlot_2*2
+            - MHG.Mod + MHG.SelectSlot_2
+    MHG.SelectSlot_13:
+        Options:
+            - MHG.SelectSlot_3*2
+            - MHG.Mod + MHG.SelectSlot_3
+    MHG.SelectSlot_14:
+        Options:
+            - MHG.SelectSlot_4*2
+            - MHG.Mod + MHG.SelectSlot_4
+    MHG.SelectSlot_15:
+        Options:
+            - MHG.SelectSlot_5*2
+            - MHG.Mod + MHG.SelectSlot_5
+    MHG.SelectSlot_16:
+        Options:
+            - MHG.SelectSlot_6*2
+            - MHG.Mod + MHG.SelectSlot_6
+    MHG.SelectSlot_17:
+        Options:
+            - MHG.SelectSlot_7*2
+            - MHG.Mod + MHG.SelectSlot_7
+    MHG.SelectSlot_18:
+        Options:
+            - MHG.SelectSlot_8*2
+            - MHG.Mod + MHG.SelectSlot_8
+    MHG.SelectSlot_19:
+        Options:
+            - MHG.SelectSlot_9*2
+            - MHG.Mod + MHG.SelectSlot_9
+    MHG.SelectSlot_20:
+        Options:
+            - MHG.SelectSlot_10*2
+            - MHG.Mod + MHG.SelectSlot_10
+    MHG.CameraPan:
+        Options:
+            - LeftClick
+    MHG.CameraMove:
+        Options:
+            - RightClick
+    MHG.CameraZoomIn:
+        Options:
+            - ScrollUp
+    MHG.CameraZoomOut:
+        Options:
+            - ScrollDown
+    MHG.CameraReset:
+        Options:
+            - MiddleClick
+    LogicUI.Back:
+        Options:
+            - Escape
+            - BackMouseButton
+    LogicUI.TabToNextInputField:
+        Options:
+            - Tab
+    LogicUI.TabToPreviousInputField:
+        Options:
+            - LeftShift + LogicUI.TabToNextInputField
+    LogicUI.IncreaseSliderValue:
+        Options:
+            - ScrollUp
+    LogicUI.DecreaseSliderValue:
+        Options:
+            - ScrollDown
+    LogicUI.IncreaseSliderValueCoarse:
+        Options:
+            - LeftShift + ScrollUp
+    LogicUI.DecreaseSliderValueCoarse:
+        Options:
+            - LeftShift + ScrollDown
+    LogicUI.IncreaseSliderValueFine:
+        Options:
+            - LeftCtrl + ScrollUp
+    LogicUI.DecreaseSliderValueFine:
+        Options:
+            - LeftCtrl + ScrollDown
+Configurable Menus:
+    Console:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 838.72
+                y: 1049
+            MenuSize_Pixels:
+                x: 2100
+                y: 950
+    Friends Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: -943
+                y: 504.07
+            MenuSize_Pixels:
+                x: 649.8796
+                y: 1008.146
+    Chat Window:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: -1495.182
+                y: 316.1364
+            MenuSize_Pixels:
+                x: 936.9091
+                y: 1396.136
+    Edit Colorable Component (same colors key):
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 700
+            MenuSize_Pixels:
+                x: 1230
+                y: 1040
+    Edit Key Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: -0.000050068
+                y: 349
+            MenuSize_Pixels:
+                x: 734.4
+                y: 653.7
+    Edit AND Gate Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 360
+            MenuSize_Pixels:
+                x: 615
+                y: 190
+    Edit Colorable Component (different colors key):
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 700
+            MenuSize_Pixels:
+                x: 855
+                y: 590
+    Edit Flag Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 780
+            MenuSize_Pixels:
+                x: 1512
+                y: 1380
+    Save Board Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 915
+            MenuSize_Pixels:
+                x: 930
+                y: 1850
+    Teleport Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 890
+            MenuSize_Pixels:
+                x: 1200
+                y: 1800
+    Load Board Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 915
+            MenuSize_Pixels:
+                x: 1863.9
+                y: 1830
+    Selection Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0.000068665
+                y: 788
+            MenuSize_Pixels:
+                x: 1765
+                y: 1265.7
+        MHG.Hotbar.ShowTitles: true
+    Edit Singer Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0.000061035
+                y: 819.4999
+            MenuSize_Pixels:
+                x: 2569.9
+                y: 1639
+    Simulation speed menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 1250
+                y: 940
+            MenuSize_Pixels:
+                x: 970
+                y: 640
+    Edit Display Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: -831
+                y: 900
+            MenuSize_Pixels:
+                x: 1100
+                y: 1680
+    Edit Delayer Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 360
+            MenuSize_Pixels:
+                x: 615
+                y: 190
+    Edit Label Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0
+                y: 469
+            MenuSize_Pixels:
+                x: 1230
+                y: 700
+    Edit Drum Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: 0.000061035
+                y: 707
+            MenuSize_Pixels:
+                x: 2569.9
+                y: 1078.3
+    Edit Display Configurations Menu:
+        LogicUI.ConfigurableMenus.Scale: 100
+        LogicUI.ConfigurableMenus.ResizingSettings:
+            MenuPosition_Pixels:
+                x: -751.0001
+                y: 900
+            MenuSize_Pixels:
+                x: 2000
+                y: 1680
+MHG.ActionWheelConfiguration:
+    Scale: 1
+    OrderedOperations:
+        -
+            Operation: FancyInput.Trigger.MHG.EditComponent
+            ShowOperationInWheel: true
+        -
+            Operation: FancyInput.Trigger.MHG.ResizeComponent
+            ShowOperationInWheel: true
+        -
+            Operation: FancyInput.Trigger.MHG.Grab
+            ShowOperationInWheel: true
+        -
+            Operation: FancyInput.Trigger.MHG.Clone
+            ShowOperationInWheel: true

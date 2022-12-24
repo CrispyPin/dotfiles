@@ -1,0 +1,13 @@
+FavoriteSimulationSpeeds_TicksPerSecond:
+    - 1
+    - 5
+    - 10
+    - 30
+    - 60
+    - 100
+    - 300
+    - 600
+    - 1000
+    - 3000
+    - 6000
+    - 10000

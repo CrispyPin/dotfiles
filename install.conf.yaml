@@ -28,6 +28,11 @@
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
     ~/bin/scripts: scripts
     ~/.steam/debian-installation/steamapps/compatdata/661130/pfx/drive_c/users/steamuser/AppData/LocalLow/Alpha Blend Interactive/ChilloutVR/game2.config: steam/ChilloutVR/game.config
+    ~/.steam/debian-installation/steamapps/common/Logic World/settings_master.succ: steam/Logic World/settings_master.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/settings_profile1.succ: steam/Logic World/settings_profile1.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/FavoriteSimulationSpeeds.succ: steam/Logic World/FavoriteSimulationSpeeds.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/savedcolors.succ: steam/Logic World/savedcolors.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/componentrestrictions.succ: steam/Logic World/componentrestrictions.succ
 
 - create:
     - ~/downloads

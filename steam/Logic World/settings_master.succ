@@ -1,0 +1,293 @@
+# These settings are persistent between profiles.
+# Mostly they are settings that do not have an in-game UI.
+
+
+MHG.Secret.LoadIntoSaveOnStartup: false
+MHG.Secret.StartupSave: ___LoadDirectlyIntoThisWorld
+
+MHG.Secret.ConnectToServerOnStartup: false
+MHG.Secret.StartupServer: localhost
+MHG.Secret.StartupServer_Password:
+
+MHG.ActiveProfile: 1
+
+MHG.DefaultHotbar:
+    SelectedHotbarSlot: 0
+    HotbarItems:
+        - MHG.Switch
+        - MHG.Inverter
+        - MHG.CircuitBoard
+        - MHG.Peg
+        - MHG.Delayer, AAAAAAEAAAA=, 1, 1
+        - MHG.CircuitBoard, AAAAAQAAAAEAAAA=, 0, 0
+___LastLoadedGameVersion: 0.91.0.664
+LanguageFallbacks:
+    - English
+MHG.Avatar.Secret.FlipTexture: false
+MHG.Avatar.Secret.TextureRotation: 45.0
+MHG.Avatar.Secret.TextureScaling:
+    x: 1.0
+    y: 1.0
+MHG.Avatar.Secret.TextureRadialShear: 0.0
+MHG.Avatar.Secret.TextureRadialShearOffset:
+    x: 0.0
+    y: 0.0
+MHG.Secret.OutgoingMessagesUpdatesPerSecond: 100
+MHG.Networking.Secret.InternetProtocolOverride: Default
+MHG.Networking.Secret.InGameTimeOutMilliseconds: 25000
+MHG.Networking.Secret.InitialConnectionTimeOutMilliseconds: 10000
+MHG.Networking.Secret.DontEverDisplayIPs: false
+MHG.Networking.Secret.DiscoveryTimeOutMilliseconds: 5000
+MHG.Secret.AllowPickingIllegalComponents: false
+MHG.Secret.AllowFlippingOneSidedComponents: false
+MHG.Secret.Interactables.StopInteractionIfLookingAtNonInteractable: true
+MHG.Secret.ShowPlacingGhostDuringWirePlacing: false
+MHG.Secret.MaxWiresPerInput: 128
+MHG.Secret.MaxWiresPerOutput: 128
+MHG.Secret.MaxWireLength: 1024
+MHG.Secret.GrabbingIntersectionTestsSkipConfiguration:
+    OutlineSkipColliderCount: 400
+    OutlineSkipTimeSeconds: 0.1
+MHG.Secret.Building.PlacingGhostsRecieveCircuitStateUpdates: true
+MHG.Secret.ResizingArrowPointerColor: 00FF00
+MHG.Secret.PauseMenuMusicEffects:
+    TransitionTimeSeconds: 0.2
+    VolumeMultiplierDecibels: -6
+    CutoffFrequencyHertz: 726
+    Resonance: 1.1
+MHG.Secret.GameplayMusicTiming.OverrideInGameSetting: false
+MHG.Secret.GameplayMusicTiming.OverrideValues:
+    MinimumTimeBetweenTracksSeconds: 300
+    MaximumTimeBetweenTracksSeconds: 600
+MHG.Secret.TimeBetweenTracks_MainMenu: 6
+MHG.Secret.MusicFadeoutTimeSeconds: 0.5
+MHG.Audio.Secret.EnableSoundEffectPitchRandomization: true
+MHG.Audio.Secret.EnableSoundEffectVolumeRandomization: true
+MHG.Audio.Secret.EnableSoundEffectClipRandomization: true
+MHG.Secret.FailureMessageColor: FFEF00
+MHG.Secret.FailureMessageMinSpamTime: 3
+MHG.Secret.DaysToKeepBackupsOfDeletedItems: 50
+MHG.Secret.PreviewsOnly_SkipIntroScreen: false
+MHG.Secret.PauseGameInPauseMenuWhenInSingleplayer: true
+MHG.Secret.ScreenshotFlashColor: 323232
+FancyPantsConsole.MessageLimitBeforeAutoClearing: 400
+MHG.Secret.UnityFixedDeltaTime: 0.02
+MHG.Secret.UnityMaximumDeltaTime: 0.2
+MHG.Secret.StepSmoothingSettings:
+    DoVerticalStepTween: true
+    VerticalStepTweenDuration: 0.2
+    VerticalStepTweenEase: OutQuad
+    DoHorizontalStepSmoothing: true
+    HorizontalStepSmoothingPower: 30
+MHG.Secret.PlayerCamera.NearClipPlane: 0.05
+MHG.Secret.PlayerCamera.FarClipPlane: 5000
+MHG.Secret.ReachDistance: 20
+MHG.Secret.PlayerModelTweenTime: 0.1
+MHG.Flying.Secret.AutoUnflyWhenEnteringChair: true
+MHG.Flying.Secret.AutoExitNoclipOnStopFlying: true
+MHG.Flying.Secret.AutoEnterNoclipOnStartFlying: true
+MHG.Flying.Secret.StartWithNolcipEnabled: false
+MHG.PlayerGravity.SmoothGravityChanges: true
+MHG.PlayerGravity.GravityChangeSmoothingSharpness: 10
+MHG.PlayerGravity.Secret.SmoothLookingDirectionOnBigGravityChanges: true
+MHG.PlayerGravity.Secret.GravityChangeSmoothingSharpness: 85
+MHG.PlayerGravity.Secret.SmoothLookingDirectionSetTime: 0.3
+MHG.Movement.Secret.MaxStepHeight: 0.5
+MHG.Secret.Zoom.ZoomFieldOfView: 10
+MHG.Secret.Zoom.ZoomLookingSensitivityMultiplier: 0.1
+MHG.Secret.Zoom.ZoomTweening: true
+MHG.Secret.Zoom.ZoomTweenTime: 0.1
+MHG.Secret.RestrictCrazyBuildingSounds: true
+FancyInput.Secret.ShowSecretBindingsInSettingsMenu: false
+LogicSettings.Secret.AllowManuallySettingSliderValuesOutOfRange: false
+LogicSettings.Secret.ShowHiddenDropdownValues: false
+LogicUI.Secret.CjkDefaultFontStyle: Chinese_Simplified
+LogicUI.Secret.PreferredDateFormat: yyyy-MM-dd  h:mm tt
+LogicUI.ColorPicker.Secret.ColorPickerCircleProjectionAlgorithm: EllipticalGrid
+LogicUI.ColorPicker.Secret.SpinPointersWithGraphics: false
+LogicUI.ColorPicker.Secret.GeneratedImagesResolution: 128
+LogicUI.ColorPicker.Secret.GeneratedImagesLength: 360
+LogicUI.Secret.SavedColorWiggleData:
+    Punch:
+        x: 10
+        y: 0
+        z: 0
+    Duration: 0.3
+    Vibrato: 15
+    Elasticity: 100
+LogicUI.Secret.BigClickyColorAnimationSettings:
+    EndScaleCoefficient: 0.88
+    AnimationTime: 0.66
+    EaseMode: OutElastic
+LogicUI.Secret.ElasticScroll: false
+LogicUI.Secret.ScrollElasticity: 0.05
+LogicUI.Secret.ScrollInertia: false
+LogicUI.Secret.ScrollInertialDecelerationRate: 0.135
+LogicUI.Secret.ToggleSwitchTweenTime: 0.1
+MHG.Secret.Building.MultiSelector.AllowSelectingChildrenOfFirstComponentInPass: false
+MHG.Secret.Building.MultiSelector.AllowSelectingParentsOfFirstComponentInPass: false
+MHG.Secret.HotbarItemTweenTime: 0.15
+MHG.Secret.HotbarTweenTime: 0.2
+MHG.Secret.MaxHotbarSlots: 20
+MHG.Hotbar.Secret.InbeTweenerWaitTime: 0.1
+MHG.Chat.Secret.MessageContentSeparationFromSenderTag: 20
+MHG.Chat.Secret.MultiLineMessageIndentSize: 20
+MHG.Chat.Secret.ChatMarkdownSettings:
+    Bold:
+        RenderBold: true
+    Italics:
+        RenderItalics: true
+    Strikethrough:
+        RenderStrikethrough: true
+    Monospace:
+        RenderMonospace: true
+        UseCustomFont: true
+        FontAssetPathRelativeToResources: Noto/Noto Mono/_NotoSansMono - Master
+        DrawOverlay: true
+        OverlayColor:
+            r: 0
+            g: 0
+            b: 0
+            a: 0.2352941
+        OverlayPaddingPixels: 25
+        ManuallySetCharacterSpacing: false
+        CharacterSpacing: 0.69
+        AddSeparationSpacing: true
+        SeparationSpacing: 0.3
+    Lists:
+        RenderUnorderedLists: true
+        RenderOrderedLists: true
+        UnorderedListBullet: •
+        OrderedListNumberSuffix: .
+        VerticalOffset: 0.76
+        BulletOffsetPixels: 100
+        ContentSeparationPixels: 20
+    Links:
+        RenderLinks: true
+        RenderAutoLinks: true
+        LinkColor:
+            r: 0.1137255
+            g: 0.4862745
+            b: 0.9176471
+            a: 1
+    Headers:
+        RenderPoundSignHeaders: false
+        RenderLineHeaders: false
+        Levels:
+            -
+                Size: 2
+                Bold: true
+                Underline: true
+                Case: None
+                VerticalSpacing: 0.45
+            -
+                Size: 1.7
+                Bold: true
+                Underline: true
+                Case: None
+                VerticalSpacing: 0.3
+            -
+                Size: 1.5
+                Bold: true
+                Underline: false
+                Case: None
+                VerticalSpacing: 0
+            -
+                Size: 1.3
+                Bold: true
+                Underline: false
+                Case: None
+                VerticalSpacing: 0
+    Superscript:
+        RenderSuperscript: false
+        RenderChainSuperscript: true
+MHG.Chat.Secret.EnforceCharacterLimit: true
+MHG.Chat.Secret.CloseChatOnSubmit: true
+MHG.Chat.Secret.ClearChatBoxWhenChatMenuCloses: true
+MHG.Components.Secret.MaxPegsAllowed_AndGate: 4
+MHG.Secret.UI.EditFlagMenu.CloseImmediatelyWhenBigColorClicked: false
+MHG.Secret.UI.EditColorableComponentsMenu.CloseImmediatelyWhenBigColorClicked: true
+MHG.Secret.SimulationSpeedMenu.ShowRemoveFromListButtonsOnHover: true
+MHG.Secret.SimulationSpeedMenu.SavedSpeedWiggleData:
+    Punch:
+        x: 10
+        y: 0
+        z: 0
+    Duration: 0.3
+    Vibrato: 15
+    Elasticity: 100
+MHG.Secret.SimulationSpeedMenu.AutoResumeSimulationWhenChangingSpeed: false
+MHG.Secret.DebugOverlayFontSize: 36
+MHG.Secret.DebugOverlayTextColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+MHG.Secret.DebugOverlayBackgroundColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0.49
+MHG.Secret.CoordinatesDisplayDecimalPlaces: 2
+MHG.Secret.FpsCounterRecalculationIntervalSeconds: 0.8
+MHG.Secret.MainMenuBackgroundCamera.RotationDegreesPerSecond:
+    x: 0
+    y: 1
+    z: 0
+MHG.Secret.MainMenuBackgroundCamera.DefaultRotationEulerAngles:
+    x: -6.6666
+    y: 0
+    z: 0
+MHG.Secret.MainMenuBackgroundCamera.DoMouseTwirling: true
+MHG.Secret.MainMenuBackgroundCamera.MouseTwirlingFactor:
+    x: 40
+    y: 20
+MHG.Secret.MainMenuBackgroundCamera.MouseTwirlingPower: 0.75
+MHG.Secret.MainMenuThemeChance: 0.5
+MHG.Networking.Secret.DiscoveryFailureRandomVariationMilliseconds: 700
+MHG.Networking.Secret.NumberOfIndividualPingsToAverageForPingTime: 10
+MHG.Networking.Secret.PingTimeOutMilliseconds: 5000
+MHG.Secret.Thumbnails.ThumbnailModelRotation:
+    x: 10
+    y: 135
+    z: -10
+MHG.Secret.Thumbnails.ThumbnailRenderResolution: 128
+MHG.Secret.Thumbnails.ThumbnailAntiAliasing: 8
+MHG.Secret.Thumbnails.ThumbnailRenderSizeCoefficient: 1.08
+MHG.Secret.Thumbnails.ThumbnailDirectLighting:
+    RotationEulerAngles:
+        x: 60
+        y: -7
+        z: -16
+    Color:
+        r: 1
+        g: 1
+        b: 1
+        a: 1
+    Intensity: 1.4
+MHG.Rendering.Secret.ChunkDimensions:
+    x: 8
+    y: 8
+    z: 8
+MHG.Rendering.Secret.ChunkOffset:
+    x: 0
+    y: 0
+    z: 0
+MHG.Secret.Thumbnails.ThumbnailAmbientLighting:
+    r: 0.71
+    g: 0.75
+    b: 0.78
+    a: 1
+MHG.Secret.PanCameraSettings:
+    PanSensitivity: 0.5
+    ZoomSensitivity: 0.5
+    MoveSensitivity: 0.00125
+    SmoothZoom: true
+    SmoothZoomTime: 0.035
+MHG.Components.Secret.MaxPegsAllowed_PanelDisplay: 9
+MHG.Components.Secret.MaxPegsAllowed_StandingDisplay: 4
+MHG.Secret.InvertMultiSwitchInteractionModKeyBehavior: false
+LogicLocalization.CurrentLanguage: English
+LogicUI.Secret.ShowCustomThemeOption: false
+MainMenuHasLoadedAtLeastOnce: true
+LogicUI.ShowColorPickerSliders: true
