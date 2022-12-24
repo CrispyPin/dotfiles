@@ -1,0 +1,80 @@
+{
+   "DesktopUI" : {
+      "pairing" : "2480,240,799,599,0",
+      "settings_desktop" : "39,532,799,599,1"
+   },
+   "DismissedWarnings" : {
+      "DismissableWarning_MultiRefreshRatePrompt" : true,
+      "DismissableWarning_UnknownHardwareDetected" : true,
+      "DismissableWarning_WiredIndexControllerActivity_457852737_LastDismissedTime" : "1671668428",
+      "DismissableWarning_WiredIndexControllerActivity_457852737_LastShownTime" : "1671665631"
+   },
+   "GpuSpeed" : {
+      "gpuSpeed0" : 1690,
+      "gpuSpeed1" : 1711,
+      "gpuSpeed2" : 1710,
+      "gpuSpeed3" : 1708,
+      "gpuSpeed4" : 1708,
+      "gpuSpeed5" : 1706,
+      "gpuSpeed6" : 1712,
+      "gpuSpeed7" : 1693,
+      "gpuSpeed8" : 1706,
+      "gpuSpeed9" : 1692,
+      "gpuSpeedCount" : 10,
+      "gpuSpeedDriver" : "92282883",
+      "gpuSpeedHorsepower" : 1705,
+      "gpuSpeedRenderTargetScale" : 1.5,
+      "gpuSpeedVendor" : "AMD Radeon RX 6800 XT (RADV NAVI21)",
+      "gpuSpeedVersion" : 2
+   },
+   "LastKnown" : {
+      "HMDManufacturer" : "Valve",
+      "HMDModel" : "Index"
+   },
+   "collisionBounds" : {
+      "CollisionBoundsColorGammaA" : 76,
+      "CollisionBoundsColorGammaG" : 3,
+      "CollisionBoundsFadeDistance" : 0.02,
+      "CollisionBoundsStyle" : 4,
+      "CollisionBoundsWallHeight" : 0.1
+   },
+   "dashboard" : {
+      "lastAccessedExternalOverlayKey" : "steam.overlay.1009850",
+      "position_2" : 2
+   },
+   "notifications" : {
+      "DoNotDisturb" : true
+   },
+   "openvr.component.vrcompositor" : {
+      "knuckles_250820_AutosaveURL_steamvrinput" : "vr-input-workshop://2904047778",
+      "knuckles_250820_CurrentURL_steamvrinput" : "vr-input-workshop://2904047778",
+      "knuckles_250820_NeedToUpdateAutosave_steamvrinput" : false,
+      "knuckles_250820_PreviousURL_steamvrinput" : "vr-input-workshop://2904047879"
+   },
+   "power" : {
+      "powerOffOnExit" : false,
+      "turnOffControllersTimeout" : 0
+   },
+   "steam.app.661130" : {
+      "knuckles_250820_CurrentURL_steamvrinput" : "vr-input-workshop://2416964086"
+   },
+   "steam.overlay.1009850" : {
+      "knuckles_250820_CurrentURL_steamvrinput" : "vr-input-workshop://2396753762"
+   },
+   "steamvr" : {
+      "allowSupersampleFiltering" : false,
+      "analogGain" : 0.028991186547107816,
+      "doNotFadeToGrid" : true,
+      "enableHomeApp" : false,
+      "installID" : "2296672328647432898",
+      "lastVersionNotice" : "1.24.7",
+      "lastVersionNoticeDate" : "1671820800",
+      "motionSmoothing" : false,
+      "overlayRenderQuality_2" : 3,
+      "playAreaColor" : "#FF000000",
+      "preferredRefreshRate" : 120.0,
+      "showAdvancedSettings" : true,
+      "showMirrorView" : false,
+      "supersampleManualOverride" : true
+   }
+}
