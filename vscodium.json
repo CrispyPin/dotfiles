@@ -41,12 +41,13 @@
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.cargo.buildScripts.enable": true,
     "editor.fontLigatures": true,
-    "editor.wordWrap": "on",
     "redhat.telemetry.enabled": false,
     "files.trimTrailingWhitespace": true,
     "editor.glyphMargin": false,
     "editor.formatOnSave": true,
     "omnisharp.useModernNet": false,
     "workbench.colorTheme": "Visual Studio Dark",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "workbench.statusBar.visible": false,
+    "editor.wordWrap": "on"
 }
