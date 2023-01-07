@@ -48,6 +48,5 @@
     "omnisharp.useModernNet": false,
     "workbench.colorTheme": "Visual Studio Dark",
     "window.zoomLevel": 1,
-    "workbench.statusBar.visible": false,
     "editor.wordWrap": "on"
 }

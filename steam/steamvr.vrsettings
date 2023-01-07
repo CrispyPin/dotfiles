@@ -69,10 +69,11 @@
    },
    "steamvr" : {
       "allowSupersampleFiltering" : false,
-      "analogGain" : 0.028991186547107816,
-      "displayPortTrainingMode" : 0,
+      "analogGain" : 0.1,
+      "background" : "/home/crispypin/.steam/debian-installation/steamapps/common/SteamVR/resources/backgrounds/night_mountains.png",
       "doNotFadeToGrid" : true,
       "enableHomeApp" : false,
+      "enableLinuxVulkanAsync" : false,
       "installID" : "2296672328647432898",
       "lastVersionNotice" : "1.25.2",
       "lastVersionNoticeDate" : "1671735826",
