@@ -10,19 +10,19 @@
       "DismissableWarning_WiredIndexControllerActivity_457852737_LastShownTime" : "1671665631"
    },
    "GpuSpeed" : {
-      "gpuSpeed0" : 1690,
-      "gpuSpeed1" : 1711,
-      "gpuSpeed2" : 1710,
-      "gpuSpeed3" : 1708,
-      "gpuSpeed4" : 1708,
-      "gpuSpeed5" : 1706,
-      "gpuSpeed6" : 1712,
-      "gpuSpeed7" : 1693,
-      "gpuSpeed8" : 1706,
-      "gpuSpeed9" : 1692,
+      "gpuSpeed0" : 1475,
+      "gpuSpeed1" : 1740,
+      "gpuSpeed2" : 1583,
+      "gpuSpeed3" : 1741,
+      "gpuSpeed4" : 1740,
+      "gpuSpeed5" : 1733,
+      "gpuSpeed6" : 1737,
+      "gpuSpeed7" : 1736,
+      "gpuSpeed8" : 1736,
+      "gpuSpeed9" : 1739,
       "gpuSpeedCount" : 10,
       "gpuSpeedDriver" : "92282883",
-      "gpuSpeedHorsepower" : 1705,
+      "gpuSpeedHorsepower" : 1736,
       "gpuSpeedRenderTargetScale" : 1.5,
       "gpuSpeedVendor" : "AMD Radeon RX 6800 XT (RADV NAVI21)",
       "gpuSpeedVersion" : 2
@@ -31,16 +31,22 @@
       "HMDManufacturer" : "Valve",
       "HMDModel" : "Index"
    },
+   "camera" : {
+      "enableCamera" : true
+   },
    "collisionBounds" : {
       "CollisionBoundsColorGammaA" : 76,
       "CollisionBoundsColorGammaG" : 3,
-      "CollisionBoundsFadeDistance" : 0.02,
+      "CollisionBoundsFadeDistance" : 0.05,
       "CollisionBoundsStyle" : 4,
-      "CollisionBoundsWallHeight" : 0.1
+      "CollisionBoundsWallHeight" : 0.5
    },
    "dashboard" : {
       "lastAccessedExternalOverlayKey" : "steam.overlay.1009850",
       "position_2" : 2
+   },
+   "driver_gamepad" : {
+      "enable" : false
    },
    "notifications" : {
       "DoNotDisturb" : true
@@ -64,17 +70,22 @@
    "steamvr" : {
       "allowSupersampleFiltering" : false,
       "analogGain" : 0.028991186547107816,
+      "displayPortTrainingMode" : 0,
       "doNotFadeToGrid" : true,
       "enableHomeApp" : false,
       "installID" : "2296672328647432898",
-      "lastVersionNotice" : "1.24.7",
-      "lastVersionNoticeDate" : "1671820800",
-      "motionSmoothing" : false,
+      "lastVersionNotice" : "1.25.2",
+      "lastVersionNoticeDate" : "1671735826",
       "overlayRenderQuality_2" : 3,
       "playAreaColor" : "#FF000000",
-      "preferredRefreshRate" : 120.0,
+      "preferredRefreshRate" : 120.01900482177734,
       "showAdvancedSettings" : true,
       "showMirrorView" : false,
       "supersampleManualOverride" : true
+   },
+   "trackers" : {
+      "/devices/lighthouse/LHR-0D710427" : "TrackerRole_LeftFoot",
+      "/devices/lighthouse/LHR-C0A7A4B2" : "TrackerRole_RightFoot",
+      "/devices/lighthouse/LHR-EC53A145" : "TrackerRole_Waist"
    }
 }
