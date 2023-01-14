@@ -1,3 +1,5 @@
+# mouse movement
+
 super + F7
 	xdotool mousemove_relative -- -16 0
 
@@ -10,6 +12,7 @@ super + F3
 super + F8
 	xdotool mousemove_relative 0 16
 
+
 super + control + F7
 	xdotool mousemove_relative -- -256 0
 
@@ -21,6 +24,32 @@ super + control + F3
 
 super + control + F8
 	xdotool mousemove_relative 0 256
+
+
+super + shift + F7
+	xdotool mousemove_relative -- -2 0
+
+super + shift + F9
+	xdotool mousemove_relative 2 0
+
+super + shift + F3
+	xdotool mousemove_relative 0 -2
+
+super + shift + F8
+	xdotool mousemove_relative 0 2
+
+
+super + control + shift + F7
+	xdotool mousemove_relative -- -64 0
+
+super + control + shift + F9
+	xdotool mousemove_relative 64 0
+
+super + control + shift + F3
+	xdotool mousemove_relative 0 -64
+
+super + control + shift + F8
+	xdotool mousemove_relative 0 64
 
 
 # F13 = left click

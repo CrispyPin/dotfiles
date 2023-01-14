@@ -46,7 +46,11 @@
     "editor.glyphMargin": false,
     "editor.formatOnSave": true,
     "omnisharp.useModernNet": false,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.wordWrap": "on",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.inlayHints.enabled": "off",
     "window.zoomLevel": 1,
-    "editor.wordWrap": "on"
+    "workbench.colorTheme": "One Candy"
 }
