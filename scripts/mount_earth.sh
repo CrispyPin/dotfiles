@@ -1,3 +1,3 @@
 #!/bin/bash
-sshfs -o idmap=user -o transform_symlinks earth:/ ~/earth
+sshfs -o idmap=user -o transform_symlinks ilo:/ ~/ilo
 

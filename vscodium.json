@@ -19,7 +19,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "sans, mono, \"linja pona\", mono",
+    "editor.fontFamily": "\"-linja lipamanka\", sans, mono, \"linja pona\", mono",
     "editor.minimap.renderCharacters": false,
     "Lua.telemetry.enable": false,
     "Lua.workspace.library": [
@@ -46,11 +46,13 @@
     "editor.glyphMargin": false,
     "editor.formatOnSave": true,
     "omnisharp.useModernNet": false,
-    "editor.wordWrap": "on",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
-    "editor.inlayHints.enabled": "off",
+    "workbench.colorTheme": "One Candy",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "One Candy"
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "lldb.suppressUpdateNotifications": true,
+    "zenMode.hideLineNumbers": false
 }
