@@ -26,6 +26,7 @@
     ~/.config/rustfmt: rustfmt
     ~/.config/sxhkd: sxhkd
     ~/.config/rofi: rofi
+    ~/.config/awesome: awesome
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
     ~/bin/scripts: scripts
     ~/.steam/debian-installation/steamapps/compatdata/661130/pfx/drive_c/users/steamuser/AppData/LocalLow/Alpha Blend Interactive/ChilloutVR/game2.config: steam/ChilloutVR/game.config

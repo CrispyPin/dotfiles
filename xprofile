@@ -1,1 +1,9 @@
 #setxkbmap -layout se
+
+xrandr --output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --set TearFree on  \
+--output DisplayPort-1 --off \
+--output DisplayPort-2 --mode 1920x1080 --pos 0x0 --rotate normal --set TearFree on \
+--output HDMI-A-0 --mode 1280x1024 --pos 3840x0 --rotate normal --set TearFree on
+
+# bind super to super+esc, for menubar toggle with one key
+xcape -e "Super_L=Super_L|Escape"
