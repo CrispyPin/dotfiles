@@ -4,13 +4,16 @@ tab-item {
   height: 20px;
 }
 
-/* Show title of unread tabs */
+/* Highlight title of unread tabs */
 :root.sidebar tab-item.unread .label-content {
   color: orange !important;
   font-style: italic !important;
   text-decoration: underline;
 }
 
+/* Hide tab close button */
+/*
 tab-closebox {
   display: none
 }
+*/
