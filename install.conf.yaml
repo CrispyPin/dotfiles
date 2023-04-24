@@ -9,32 +9,32 @@
         recursive: true
 
 - link:
-    ~/.xprofile: xprofile
     ~/.config/alacritty/alacritty.yml: alacritty.yml
+    ~/.config/awesome: awesome
+    ~/.config/blender: blender
+    ~/.config/btop/btop.conf: btop.conf
+    ~/.config/f3d: f3d
     ~/.config/fastfetch/config.conf: fastfetch.conf
-    ~/.config/redshift/redshift.conf: redshift.conf
     ~/.config/fish: fish
+    ~/.config/fontconfig: fontconfig
+    ~/.config/kitty/kitty.conf: kitty.conf
+    ~/.config/mpv: mpv
     ~/.config/picom/picom.conf: picom.conf
+    ~/.config/redshift/redshift.conf: redshift.conf
+    ~/.config/rofi: rofi
+    ~/.config/sxhkd: sxhkd
+    ~/.config/templates: templates
     ~/.config/user-dirs.dirs: user-dirs.dirs
     ~/.config/VSCodium/User/settings.json: vscodium.json
-    ~/.config/templates: templates
-    ~/.config/kitty/kitty.conf: kitty.conf
-    ~/.config/btop/btop.conf: btop.conf
-    ~/.config/mpv: mpv
-    ~/.config/f3d: f3d
-    ~/.config/fontconfig: fontconfig
-    ~/.config/rustfmt: rustfmt
-    ~/.config/sxhkd: sxhkd
-    ~/.config/rofi: rofi
-    ~/.config/awesome: awesome
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
-    ~/bin/scripts: scripts
-    ~/.steam/debian-installation/steamapps/compatdata/661130/pfx/drive_c/users/steamuser/AppData/LocalLow/Alpha Blend Interactive/ChilloutVR/game2.config: steam/ChilloutVR/game.config
-    ~/.steam/debian-installation/steamapps/common/Logic World/settings_master.succ: steam/Logic World/settings_master.succ
-    ~/.steam/debian-installation/steamapps/common/Logic World/settings_profile1.succ: steam/Logic World/settings_profile1.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/componentrestrictions.succ: steam/Logic World/componentrestrictions.succ
     ~/.steam/debian-installation/steamapps/common/Logic World/FavoriteSimulationSpeeds.succ: steam/Logic World/FavoriteSimulationSpeeds.succ
     ~/.steam/debian-installation/steamapps/common/Logic World/savedcolors.succ: steam/Logic World/savedcolors.succ
-    ~/.steam/debian-installation/steamapps/common/Logic World/componentrestrictions.succ: steam/Logic World/componentrestrictions.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/settings_master.succ: steam/Logic World/settings_master.succ
+    ~/.steam/debian-installation/steamapps/common/Logic World/settings_profile1.succ: steam/Logic World/settings_profile1.succ
+    ~/.steam/debian-installation/steamapps/compatdata/661130/pfx/drive_c/users/steamuser/AppData/LocalLow/Alpha Blend Interactive/ChilloutVR/game2.config: steam/ChilloutVR/game.config
+    ~/.xprofile: xprofile
+    ~/bin/scripts: scripts
 
 
 - create:

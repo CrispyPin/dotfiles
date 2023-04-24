@@ -1,1 +1,3 @@
 location.txt
+blender/*/config/*.txt
+__pycache__
