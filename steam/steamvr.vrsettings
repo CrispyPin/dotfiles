@@ -1,28 +1,29 @@
 {
    "DesktopUI" : {
+      "debugcommands_desktop" : "660,140,599,799,0",
       "pairing" : "2480,240,799,599,0",
-      "settings_desktop" : "39,532,799,599,1"
+      "settings_desktop" : "38,312,799,599,1"
    },
    "DismissedWarnings" : {
       "DismissableWarning_MultiRefreshRatePrompt" : true,
       "DismissableWarning_UnknownHardwareDetected" : true,
-      "DismissableWarning_WiredIndexControllerActivity_457852737_LastDismissedTime" : "1671668428",
-      "DismissableWarning_WiredIndexControllerActivity_457852737_LastShownTime" : "1671665631"
+      "DismissableWarning_WiredIndexControllerActivity_457852737_LastDismissedTime" : "1680388525",
+      "DismissableWarning_WiredIndexControllerActivity_457852737_LastShownTime" : "1680387550"
    },
    "GpuSpeed" : {
-      "gpuSpeed0" : 1708,
-      "gpuSpeed1" : 1689,
-      "gpuSpeed2" : 1711,
-      "gpuSpeed3" : 1697,
-      "gpuSpeed4" : 1712,
-      "gpuSpeed5" : 1703,
-      "gpuSpeed6" : 1703,
-      "gpuSpeed7" : 1682,
-      "gpuSpeed8" : 1702,
-      "gpuSpeed9" : 1694,
+      "gpuSpeed0" : 1713,
+      "gpuSpeed1" : 1707,
+      "gpuSpeed2" : 1716,
+      "gpuSpeed3" : 1712,
+      "gpuSpeed4" : 1710,
+      "gpuSpeed5" : 1707,
+      "gpuSpeed6" : 1707,
+      "gpuSpeed7" : 1717,
+      "gpuSpeed8" : 1710,
+      "gpuSpeed9" : 1706,
       "gpuSpeedCount" : 10,
       "gpuSpeedDriver" : "92282883",
-      "gpuSpeedHorsepower" : 1701,
+      "gpuSpeedHorsepower" : 1709,
       "gpuSpeedRenderTargetScale" : 1.5,
       "gpuSpeedVendor" : "AMD Radeon RX 6800 XT (RADV NAVI21)",
       "gpuSpeedVersion" : 2
@@ -37,7 +38,7 @@
    "collisionBounds" : {
       "CollisionBoundsColorGammaA" : 76,
       "CollisionBoundsColorGammaG" : 3,
-      "CollisionBoundsFadeDistance" : 0.125,
+      "CollisionBoundsFadeDistance" : 0.10000000149011612,
       "CollisionBoundsStyle" : 4,
       "CollisionBoundsWallHeight" : 0.5
    },
@@ -61,6 +62,11 @@
       "powerOffOnExit" : false,
       "turnOffControllersTimeout" : 0
    },
+   "steam.app.250820" : {
+      "knuckles_250820_AutosaveURL_legacy" : "vr-input-workshop://2962810915",
+      "knuckles_250820_CurrentURL_legacy" : "vr-input-workshop://2962810915",
+      "knuckles_250820_NeedToUpdateAutosave_legacy" : false
+   },
    "steam.app.661130" : {
       "knuckles_250820_CurrentURL_steamvrinput" : "vr-input-workshop://2416964086"
    },
@@ -69,14 +75,16 @@
    },
    "steamvr" : {
       "allowSupersampleFiltering" : false,
-      "analogGain" : 0.13114259623508862,
+      "analogGain" : 0.13811686488795202,
       "background" : "/home/crispypin/.steam/debian-installation/steamapps/common/SteamVR/resources/backgrounds/night_mountains.png",
+      "debugInputBinding" : true,
       "doNotFadeToGrid" : true,
       "enableHomeApp" : false,
       "enableLinuxVulkanAsync" : false,
+      "hmdDisplayColorGainB" : 0.38999998569488525,
       "installID" : "2296672328647432898",
-      "lastVersionNotice" : "1.25.2",
-      "lastVersionNoticeDate" : "1671735826",
+      "lastVersionNotice" : "1.25.7",
+      "lastVersionNoticeDate" : "1679670685",
       "motionSmoothing" : false,
       "overlayRenderQuality_2" : 3,
       "playAreaColor" : "#FF000000",
@@ -84,6 +92,17 @@
       "showAdvancedSettings" : true,
       "showMirrorView" : false,
       "supersampleManualOverride" : true
+   },
+   "system.generated.sinpin_vr" : {
+      "knuckles_250820_AutosaveURL_steamvrinput" : "vr-input-workshop://2965870040",
+      "knuckles_250820_CurrentURL_steamvrinput" : "vr-input-workshop://2965870040",
+      "knuckles_250820_NeedToUpdateAutosave_steamvrinput" : false,
+      "knuckles_250820_PreviousURL_steamvrinput" : "vr-input-workshop://2965870530"
+   },
+   "system.generated.steam" : {
+      "knuckles_250820_AutosaveURL_legacy" : "vr-input-workshop://2956606766",
+      "knuckles_250820_CurrentURL_legacy" : "vr-input-workshop://2956606766",
+      "knuckles_250820_NeedToUpdateAutosave_legacy" : false
    },
    "trackers" : {
       "/devices/lighthouse/LHR-0D710427" : "TrackerRole_LeftFoot",

@@ -55,7 +55,7 @@ MHG.Graphics.RenderDistance.LimitRenderDistance: true
 MHG.Graphics.RenderDistance.MaxRenderDistance: 600
 MHG.ScreenshotResolutionScale: 1
 MHG.ScreenshotSounds: true
-MHG.ScreenshotEncoding: JPG
+MHG.ScreenshotEncoding: PNG
 MHG.ScreenshotJpgQuality: 100
 MHG.Avatar.OfflineName: Crispy
 MHG.Avatar.BodyColor: 9B4EE5
@@ -111,12 +111,12 @@ MHG.Graphics.AdditionalLightShadowResolution: _512
 MHG.Graphics.ShadowCascades: FourCascades
 MHG.Graphics.SoftShadowsEnabled: true
 MHG.Graphics.OutlineThickness: 2
-MHG.Graphics.OutlineFill: 20
+MHG.Graphics.OutlineFill: 10
 MHG.Graphics.OutlineIntensity: 75
 MHG.Graphics.OutlineCorners: false
 MHG.Graphics.AmbientOcclusionEnabled: true
 MHG.Graphics.BloomEnabled: false
-MHG.Graphics.AntiAliasing: _4x
+MHG.Graphics.AntiAliasing: _8x
 MHG.Graphics.MaxFPS: 60
 MHG.Graphics.RenderScale: 1
 MHG.Graphics.Vsync: SingleBuffered
@@ -146,11 +146,11 @@ MHG.EnableDarkenedMenuBackgrounds: true
 MHG.MenuBackgroundDarkness: 0.5
 MHG.MenuBackgroundBlurriness: 1
 MHG.EnableBlurredMenuBackgrounds: true
-MHG.CrosshairStyle: MHG/crosshairs/crosshair001.png
+MHG.CrosshairStyle: MHG/crosshairs/crosshair012.png
 MHG.HighContrastCrosshair: false
-MHG.CrosshairColor: 000000
+MHG.CrosshairColor: FF76D4
 MHG.CrosshairOpacity: 1
-MHG.CrosshairScale: 1
+MHG.CrosshairScale: 1.1
 MHG.Chat.ShowUnderlay: true
 MHG.Chat.UnderlayOpacity: 0.6
 MHG.Chat.FadeMessages: true
@@ -178,10 +178,10 @@ FancyInput.TriggerBindings:
             - T
     MHG.Sprint:
         Options:
-            - LeftShift
+            - A
     MHG.Jump:
         Options:
-            - A
+            - LeftShift
     MHG.Crouch:
         Options:
             - C -TapToToggle
@@ -220,7 +220,7 @@ FancyInput.TriggerBindings:
             - MHG.Mod + MHG.Grab
     MHG.EditComponent:
         Options:
-            - LeftShift + X
+            - LeftCtrl + V
     MHG.ResizeComponent:
         Options:
             - V
@@ -323,7 +323,7 @@ FancyInput.TriggerBindings:
             - LeftClick
     MHG.Zoom:
         Options:
-            - LeftCtrl + R -TapToToggle
+            - ForwardMouseButton -TapToToggle
     MHG.PauseGame:
         Options:
             - Escape
@@ -498,11 +498,11 @@ Configurable Menus:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:
             MenuPosition_Pixels:
-                x: 838.72
+                x: 527.8109
                 y: 1049
             MenuSize_Pixels:
-                x: 2100
-                y: 950
+                x: 2721.818
+                y: 1230.227
     Friends Menu:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:
@@ -516,11 +516,11 @@ Configurable Menus:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:
             MenuPosition_Pixels:
-                x: -1495.182
-                y: 316.1364
+                x: -1693.636
+                y: -539.9996
             MenuSize_Pixels:
-                x: 936.9091
-                y: 1396.136
+                x: 540
+                y: 540
     Edit Colorable Component (same colors key):
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:
@@ -643,11 +643,11 @@ Configurable Menus:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:
             MenuPosition_Pixels:
-                x: 0
-                y: 469
+                x: -204.5455
+                y: 851.5
             MenuSize_Pixels:
                 x: 1230
-                y: 700
+                y: 720.4545
     Edit Drum Menu:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:

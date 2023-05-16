@@ -20,7 +20,7 @@ MHG.DefaultHotbar:
         - MHG.Peg
         - MHG.Delayer, AAAAAAEAAAA=, 1, 1
         - MHG.CircuitBoard, AAAAAQAAAAEAAAA=, 0, 0
-___LastLoadedGameVersion: 0.91.0.664
+___LastLoadedGameVersion: 0.91.1.49
 LanguageFallbacks:
     - English
 MHG.Avatar.Secret.FlipTexture: false
@@ -291,3 +291,4 @@ LogicLocalization.CurrentLanguage: English
 LogicUI.Secret.ShowCustomThemeOption: false
 MainMenuHasLoadedAtLeastOnce: true
 LogicUI.ShowColorPickerSliders: true
+MHG.Placing.Secret.MaxOffsetVariantAttemptsPerItemPerFrame: 50
