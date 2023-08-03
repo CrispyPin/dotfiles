@@ -51,24 +51,24 @@ MHG.OutlinePegs: true
 MHG.OutlineWires: true
 MHG.OutlineConnectedPegWires: true
 MHG.OutlineInteractables: true
-MHG.Graphics.RenderDistance.LimitRenderDistance: true
-MHG.Graphics.RenderDistance.MaxRenderDistance: 600
-MHG.ScreenshotResolutionScale: 1
+MHG.Graphics.RenderDistance.LimitRenderDistance: false
+MHG.Graphics.RenderDistance.MaxRenderDistance: 150
+MHG.ScreenshotResolutionScale: 2
 MHG.ScreenshotSounds: true
 MHG.ScreenshotEncoding: PNG
 MHG.ScreenshotJpgQuality: 100
 MHG.Avatar.OfflineName: Crispy
-MHG.Avatar.BodyColor: 9B4EE5
-MHG.Avatar.FaceColor: 010032
+MHG.Avatar.BodyColor: B44EE5
+MHG.Avatar.FaceColor: FF0082
 MHG.Avatar.SHINYBOBBY: false
 MHG.Avatar.BobbyStyle: Casual
 MHG.FieldOfView: 80
-MHG.SeeYourOwnShadow: false
+MHG.SeeYourOwnShadow: true
 MHG.NametagScale: 1
 MHG.NametagOpacity: 1
 MHG.ShowNametags: Always
 MHG.NametagsFollowCamera: true
-MHG.RealtimeReflections.Enabled: true
+MHG.RealtimeReflections.Enabled: false
 MHG.RealtimeReflections.UpdateMode: Frame
 MHG.RealtimeReflections.UpdateInterval_Frame: 1
 MHG.RealtimeReflections.UpdateInterval_Seconds: 1
@@ -112,7 +112,7 @@ MHG.Graphics.ShadowCascades: FourCascades
 MHG.Graphics.SoftShadowsEnabled: true
 MHG.Graphics.OutlineThickness: 2
 MHG.Graphics.OutlineFill: 10
-MHG.Graphics.OutlineIntensity: 75
+MHG.Graphics.OutlineIntensity: 60
 MHG.Graphics.OutlineCorners: false
 MHG.Graphics.AmbientOcclusionEnabled: true
 MHG.Graphics.BloomEnabled: false
@@ -120,7 +120,7 @@ MHG.Graphics.AntiAliasing: _8x
 MHG.Graphics.MaxFPS: 60
 MHG.Graphics.RenderScale: 1
 MHG.Graphics.Vsync: SingleBuffered
-MHG.Graphics.FullscreenMode: Windowed
+MHG.Graphics.FullscreenMode: FullScreenWindow
 MHG.Graphics.ShaderQuality.BarrierShaderVariant: _2D
 LogicUI.ColorChoosing.FunSpinnyCircle: false
 LogicUI.ColorChoosing.FunSpinnySquare: false
@@ -498,8 +498,8 @@ Configurable Menus:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:
             MenuPosition_Pixels:
-                x: 527.8109
-                y: 1049
+                x: 559.0909
+                y: 1079
             MenuSize_Pixels:
                 x: 2721.818
                 y: 1230.227
@@ -647,7 +647,7 @@ Configurable Menus:
                 y: 851.5
             MenuSize_Pixels:
                 x: 1230
-                y: 720.4545
+                y: 724.5454
     Edit Drum Menu:
         LogicUI.ConfigurableMenus.Scale: 100
         LogicUI.ConfigurableMenus.ResizingSettings:

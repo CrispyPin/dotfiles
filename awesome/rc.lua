@@ -8,6 +8,7 @@ local awful = require("awful")
 CONFIG_DIR = awful.util.get_configuration_dir()
 HOME_DIR = CONFIG_DIR .. "../../"
 SCRIPTS_DIR = HOME_DIR .. "dotfiles/scripts/"
+HOME_BIN = HOME_DIR .. "bin/"
 require("awful.autofocus")
 -- Widget and layout library
 local wibox = require("wibox")
@@ -90,12 +91,14 @@ local main_menu = awful.menu({
 		{ "terminal",     terminal },
 		{ "file manager", file_manager },
 		{ "OVR Utils",    function() awful.spawn("./proj/godot/ovr-utils/builds/linux/ovr-utils.x86_64") end },
+		{ "sinpin-vr",    function() awful.spawn(terminal .. " -e fish -C ~/bin/sinpin-vr/sinpin_vr") end },
 		{ "close menu", function()
 		end }
 	}
 })
 
 local launcher = awful.widget.launcher({ image = beautiful.awesome_icon, menu = main_menu })
+local blahaj = awful.widget.launcher({ image = beautiful.blahaj, menu = {} })
 
 -- Menubar configuration
 menubar.utils.terminal = terminal -- Set the terminal for applications that require it
@@ -106,7 +109,7 @@ menubar.menu_gen.all_menu_dirs = {
 	--"/var/lib/flatpak/exports/share/applications",
 }
 
-local juneday = awful.widget.watch(SCRIPTS_DIR .. "june", 600, function(widget, stdout)
+local juneday = awful.widget.watch(HOME_BIN .. "june", 600, function(widget, stdout)
 	for line in stdout:gmatch("[^\r\n]+") do
 		widget.text = " [ " .. line .. " ] "
 		break
@@ -116,7 +119,7 @@ local juneday = awful.widget.watch(SCRIPTS_DIR .. "june", 600, function(widget, 
 end)
 
 -- Create a textclock widget
-local textclock = wibox.widget.textclock()
+local textclock = awful.widget.textclock()
 
 -- Create a wibox for each screen and add it
 -- buttons for each tag widget
@@ -200,6 +203,7 @@ awful.screen.connect_for_each_screen(function(s)
 			layout = wibox.layout.fixed.horizontal,
 			launcher,
 			s.mytaglist,
+			blahaj,
 		},
 		s.mytasklist, -- Middle widget
 		{ -- Right widgets

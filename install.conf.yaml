@@ -25,6 +25,7 @@
     ~/.config/sxhkd: sxhkd
     ~/.config/templates: templates
     ~/.config/user-dirs.dirs: user-dirs.dirs
+    ~/.config/warpd/config: warpd_config
     ~/.config/VSCodium/User/settings.json: vscodium.json
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
     ~/.steam/debian-installation/steamapps/common/Logic World/componentrestrictions.succ: steam/Logic World/componentrestrictions.succ

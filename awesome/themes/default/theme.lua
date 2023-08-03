@@ -121,6 +121,7 @@ theme.wallpaper                 = theme_path .. "background.png"
 --     theme.menu_height, theme.bg_focus, theme.fg_focus
 -- )
 theme.awesome_icon              = theme_path .. "icon.png"
+theme.blahaj                    = theme_path .. "blahaj.png"
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.

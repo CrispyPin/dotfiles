@@ -2,4 +2,4 @@
 
 PROTON_LOG=0 PROTON_LOG_DIR=/tmp %command% -skipsteam --disable-videoplayers --melonloader.hideconsole
 
---disable-videoplayers --melonloader.hideconsole
+--disable-videoplayers --melonloader.hideconsole -skipsteam
