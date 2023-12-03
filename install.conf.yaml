@@ -17,6 +17,7 @@
     ~/.config/fastfetch/config.conf: fastfetch.conf
     ~/.config/fish: fish
     ~/.config/fontconfig: fontconfig
+    ~/.config/index_camera_passthrough: index_camera_passthrough
     ~/.config/kitty/kitty.conf: kitty.conf
     ~/.config/mpv: mpv
     ~/.config/picom/picom.conf: picom.conf
@@ -25,8 +26,8 @@
     ~/.config/sxhkd: sxhkd
     ~/.config/templates: templates
     ~/.config/user-dirs.dirs: user-dirs.dirs
-    ~/.config/warpd/config: warpd_config
     ~/.config/VSCodium/User/settings.json: vscodium.json
+    ~/.config/warpd/config: warpd_config
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
     ~/.steam/debian-installation/steamapps/common/Logic World/componentrestrictions.succ: steam/Logic World/componentrestrictions.succ
     ~/.steam/debian-installation/steamapps/common/Logic World/FavoriteSimulationSpeeds.succ: steam/Logic World/FavoriteSimulationSpeeds.succ
