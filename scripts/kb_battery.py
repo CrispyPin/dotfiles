@@ -10,4 +10,4 @@ for s in all_statuses:
 				print(line.split(":")[1].strip())
 				exit(0)
 
-print("no kb found")
+print("conputer bad")

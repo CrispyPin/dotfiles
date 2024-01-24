@@ -35,6 +35,12 @@ special_keys = gears.table.join(
 	end,
 		{ description = "Rofi", group = "launcher" }),
 
+	-- awful.key({ "Ctrl", "Shift" }, "E", function()
+	awful.key({ modkey }, "u", function()
+		awful.util.spawn(SCRIPTS_DIR .. "emoji_picker.sh")
+	end,
+		{ description = "Emoji picker", group = "launcher" }),
+
 
 	-- Media Keys
 	awful.key({}, "XF86AudioPlay", function()

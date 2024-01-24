@@ -51,7 +51,8 @@ end
 -- Theme
 local theme_path = CONFIG_DIR .. "/themes/default/"
 beautiful.init(theme_path .. "theme.lua")
-naughty.notify({ title = "Theme loaded", text = tostring(theme_path), icon = theme_path .. "icon.png", screen = 1 })
+-- naughty.notify({ title = "Theme loaded", text = tostring(theme_path), icon = theme_path .. "icon.png", screen = 1 })
+-- naughty.notify({ title = "Screen count", text = tostring(screen:count()), icon = theme_path .. "icon.png", screen = 1 })
 require("modules/brightness")
 require("modules/battery")
 
@@ -97,8 +98,15 @@ local main_menu = awful.menu({
 	}
 })
 
+
 local launcher = awful.widget.launcher({ image = beautiful.awesome_icon, menu = main_menu })
-local blahaj = awful.widget.launcher({ image = beautiful.blahaj, menu = {} })
+local blahaj = awful.widget.button({
+	image = beautiful.blahaj,
+	menu = function()
+		awful.spawn(
+			"xdg-open https://www.ikea.com/se/sv/p/blahaj-mjukleksak-haj-30373588/")
+	end
+})
 
 -- Menubar configuration
 menubar.utils.terminal = terminal -- Set the terminal for applications that require it
@@ -114,8 +122,31 @@ local juneday = awful.widget.watch(HOME_BIN .. "june", 600, function(widget, std
 		widget.text = " [ " .. line .. " ] "
 		break
 	end
+end)
 
-	widget.align = "center"
+local kb_battery = awful.widget.watch(SCRIPTS_DIR .. "kb_battery.py", 60, function(widget, stdout)
+	for line in stdout:gmatch("[^\r\n]+") do
+		widget.text = " [ " .. line .. " ] "
+		break
+	end
+end)
+
+local birthday = awful.widget.watch(SCRIPTS_DIR .. "bdays.sh", 600, function(widget, stdout)
+	widget.text = ""
+	for line in stdout:gmatch("[^\r\n]+") do
+		widget.text = widget.text .. line .. " "
+	end
+	if widget.text ~= "" then
+		widget.text = "[ Birthday: " .. widget.text .. "]"
+	end
+end)
+
+local steamvr_status = awful.widget.watch("cat /tmp/steamvr_battery_status", 1, function(widget, stdout)
+	widget.text = ""
+	for line in stdout:gmatch("[^\r\n]+") do
+		widget.text = " [ " .. line .. "] "
+		break
+	end
 end)
 
 -- Create a textclock widget
@@ -211,6 +242,9 @@ awful.screen.connect_for_each_screen(function(s)
 			brightness.piechart,
 			battery_widget,
 			-- wibox.widget.systray(),
+			steamvr_status,
+			birthday,
+			kb_battery,
 			juneday,
 			textclock,
 			--s.mylayoutbox,
@@ -240,7 +274,7 @@ local globalkeys = gears.table.join(
 	),
 	awful.key({ modkey }, "k",
 		function()
-			awful.client.focus.byidx( -1)
+			awful.client.focus.byidx(-1)
 		end,
 		{ description = "focus previous by index", group = "client" }
 	),
@@ -250,19 +284,19 @@ local globalkeys = gears.table.join(
 		{ description = "reload awesome", group = "awesome" }),
 	awful.key({ modkey }, "l", function() awful.tag.incmwfact(0.05) end,
 		{ description = "increase master width factor", group = "layout" }),
-	awful.key({ modkey }, "h", function() awful.tag.incmwfact( -0.05) end,
+	awful.key({ modkey }, "h", function() awful.tag.incmwfact(-0.05) end,
 		{ description = "decrease master width factor", group = "layout" }),
 	awful.key({ modkey, "Shift" }, "h", function() awful.tag.incnmaster(1, nil, true) end,
 		{ description = "increase the number of master clients", group = "layout" }),
-	awful.key({ modkey, "Shift" }, "l", function() awful.tag.incnmaster( -1, nil, true) end,
+	awful.key({ modkey, "Shift" }, "l", function() awful.tag.incnmaster(-1, nil, true) end,
 		{ description = "decrease the number of master clients", group = "layout" }),
 	awful.key({ modkey, "Control" }, "h", function() awful.tag.incncol(1, nil, true) end,
 		{ description = "increase the number of columns", group = "layout" }),
-	awful.key({ modkey, "Control" }, "l", function() awful.tag.incncol( -1, nil, true) end,
+	awful.key({ modkey, "Control" }, "l", function() awful.tag.incncol(-1, nil, true) end,
 		{ description = "decrease the number of columns", group = "layout" }),
 	awful.key({ modkey }, "space", function() awful.layout.inc(1) end,
 		{ description = "select next", group = "layout" }),
-	awful.key({ modkey, "Shift" }, "space", function() awful.layout.inc( -1) end,
+	awful.key({ modkey, "Shift" }, "space", function() awful.layout.inc(-1) end,
 		{ description = "select previous", group = "layout" }),
 
 	awful.key({ modkey, "Control" }, "n",
@@ -286,8 +320,8 @@ local globalkeys = gears.table.join(
 		{ description = "open terminal", group = "launcher" }),
 	-- alt-tab menu
 	awful.key({ "Mod1" }, "Tab", function()
-		awful.spawn("rofi -show")
-	end,
+			awful.spawn("rofi -show")
+		end,
 		{ description = "rofi", group = "launcher" })
 
 )
@@ -381,7 +415,8 @@ root.keys(globalkeys)
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
 	-- All clients will match this rule.
-	{ rule = {},
+	{
+		rule = {},
 		properties = {
 			border_width = beautiful.border_width,
 			border_color = beautiful.border_normal,
@@ -395,36 +430,44 @@ awful.rules.rules = {
 	},
 
 	-- Floating clients.
-	{ rule_any = {
-		instance = {
-			"pavucontrol",
+	{
+		rule_any = {
+			instance = {
+				"pavucontrol",
+			},
+			class = {
+				"Arandr",
+				--"Godot_Engine",
+			},
+			-- Note that the name property shown in xprop might be set slightly after creation of the client
+			-- and the name shown there might not match defined rules here.
+			name = {
+				"Event Tester", -- xev
+				"Steam",
+				"Friends List",
+				"Beataroni",
+				"ovr-utils",
+				"Godot",
+			},
 		},
-		class = {
-			"Arandr",
-			--"Godot_Engine",
-		},
-		-- Note that the name property shown in xprop might be set slightly after creation of the client
-		-- and the name shown there might not match defined rules here.
-		name = {
-			"Event Tester", -- xev
-			"Steam",
-			"Friends List",
-			"Beataroni",
-			"ovr-utils",
-			"Godot",
-		},
-	}, properties = { floating = true, placement = awful.placement.no_offscreen } },
+		properties = { floating = true, placement = awful.placement.no_offscreen }
+	},
 
 	-- Add titlebars to normal clients and dialogs
-	{ rule_any = { type = { "normal", "dialog" }
-	}, properties = { titlebars_enabled = true }
+	{
+		rule_any = { type = { "normal", "dialog" }
+		},
+		properties = { titlebars_enabled = true }
 	},
-	{ rule_any = { name = { "Launching steam" }
-	}, properties = { focus = false, raise = false }
+	{
+		rule_any = { name = { "Launching steam" }
+		},
+		properties = { focus = false, raise = false }
 	},
-	{ rule = {
-		class = "/home/crispypin/bin/ovr-utils/ovr-utils.x86_64",
-	},
+	{
+		rule = {
+			class = "/home/crispypin/bin/ovr-utils/ovr-utils.x86_64",
+		},
 		properties = { floating = true, width = 16, height = 16, tag = "9" }
 	},
 }

@@ -17,6 +17,7 @@ alias carr "cargo run --release"
 alias cacp "cargo clippy -- -W clippy::pedantic"
 alias tab "echo \"hard_tabs = true\" > rustfmt.toml"
 alias :3 "echo meow :3"
+alias kill_vr "killall vrdashboard -9 & killall vrmonitor -9 & killall steamvrwebhelper -9 & killall vrcompositor -9"
 alias py python
 fish_add_path /home/crispypin/bin/
 fish_add_path /home/crispypin/.cargo/bin

@@ -16,7 +16,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "\"-Wingdings\",\"-linja lipamanka\", sans, mono",
+    "editor.fontFamily": "\"-Wingdings\",\"-linja lipamanka\", sasns, mono, \"nasin\\-nanpa\"",
     "Lua.workspace.library": [
         "~/proj/forks/awesome"
     ],
@@ -41,8 +41,10 @@
     "extensions.autoUpdate": false,
     "zenMode.hideLineNumbers": false,
     "editor.wordWrap": "on",
-    "editor.minimap.renderCharacters": false,
     "editor.inlayHints.enabled": "offUnlessPressed",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "markdown.preview.breaks": true,
+    "git.openRepositoryInParentFolders": "always",
     "window.zoomLevel": 1,
-    "diffEditor.ignoreTrimWhitespace": false
+    "editor.minimap.renderCharacters": false
 }

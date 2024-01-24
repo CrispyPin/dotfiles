@@ -13,14 +13,17 @@ awful.spawn("redshift")
 awful.spawn("sxhkd")
 
 if not is_laptop then
-	awful.spawn("discord", { screen = 3 })
+	awful.spawn("vesktop")
 	awful.spawn("vscodium")
-	awful.spawn("spotify", { tag = "2", screen = 3, urgent = false })
+	awful.spawn("spotify")
 	awful.spawn("firefox")
 
+	local side_monitor = screen:count()
 	awful.spawn(terminal .. " -e fish -C \"sleep 5 && ncpamixer\"",
-		{ tag = "3", screen = 3, urgent = false, focus = false })
-	awful.spawn(terminal .. " -e fish -C btop", { tag = "4", screen = 3, urgent = false, focus = false })
-	awful.spawn(terminal .. " -e fish -C \"sleep 5 && snoud\"", { tag = "5", screen = 3, urgent = false, focus = false })
-	awful.spawn(terminal .. " -e fish -C \"sleep 2 && gomuks\"", { tag = "9", screen = 3, urgent = false, focus = false })
+		{ tag = "3", screen = side_monitor, urgent = false, focus = false })
+	awful.spawn(terminal .. " -e fish -C btop", { tag = "4", screen = side_monitor, urgent = false, focus = false })
+	awful.spawn(terminal .. " -e fish -C \"sleep 5 && snoud\"",
+		{ tag = "5", screen = side_monitor, urgent = false, focus = false })
+	awful.spawn(terminal .. " -e fish -C \"sleep 2 && gomuks\"",
+		{ tag = "9", screen = side_monitor, urgent = false, focus = false })
 end
