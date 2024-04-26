@@ -16,7 +16,7 @@
     "liveServer.settings.root": "docs/",
     "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
-    "editor.fontFamily": "\"-Wingdings\",\"-linja lipamanka\", sasns, mono, \"nasin\\-nanpa\"",
+    "editor.fontFamily": "Liberation Mono , \"-Wingdings\",\"-linja lipamanka\", sasns, mono, \"nasin\\-nanpa\"",
     "Lua.workspace.library": [
         "~/proj/forks/awesome"
     ],
@@ -26,7 +26,6 @@
     "editor.renderWhitespace": "all",
     "terminal.integrated.fontFamily": "monospace",
     "markdown.preview.fontFamily": "sans",
-    "editor.bracketPairColorization.enabled": false,
     "rust-analyzer.cargo.buildScripts.enable": true,
     "editor.fontLigatures": true,
     "redhat.telemetry.enabled": false,
