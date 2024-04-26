@@ -36,6 +36,7 @@
     ~/.steam/debian-installation/steamapps/common/Logic World/settings_profile1.succ: steam/Logic World/settings_profile1.succ
     ~/.steam/debian-installation/steamapps/compatdata/661130/pfx/drive_c/users/steamuser/AppData/LocalLow/Alpha Blend Interactive/ChilloutVR/game2.config: steam/ChilloutVR/game.config
     ~/.xprofile: xprofile
+    ~/.nanorc: .nanorc
     ~/bin/scripts: scripts
 
 
