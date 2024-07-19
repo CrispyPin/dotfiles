@@ -26,6 +26,7 @@
     ~/.config/sxhkd: sxhkd
     ~/.config/templates: templates
     ~/.config/user-dirs.dirs: user-dirs.dirs
+    ~/.config/vesktop/settings/quickCss.css: vencord.css
     ~/.config/VSCodium/User/settings.json: vscodium.json
     ~/.config/warpd/config: warpd_config
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
