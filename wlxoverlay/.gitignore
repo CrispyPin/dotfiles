@@ -1,0 +1,5 @@
+*.exr
+*.dds
+*.vrmanifest
+conf.d/*
+!kloppenheim_02_puresky_8k.dds
