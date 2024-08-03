@@ -10,10 +10,10 @@ https://github.com/ETBCOR/nasin-nanpa/releases
     --font-code: Consolas, monospace, "nasin-nanpa";
 }
 
-/* nitro button, EVENTS, first text channel in some servers :( */
-/* .content__690c5 > li:nth-child(3), */
-/* shop button */
-/* .content__690c5 > li:nth-child(4), */
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 > .listItem_c96c45, /* server discovery button */
+.privateChannels_f0963d .channel_c91bad.container_b15955:nth-child(1), /* shop button in DM page */
+.privateChannels_f0963d .channel_c91bad.container_b15955:nth-child(3), /* nitro button in DM page */
+.channelAppLauncher_df39bd, /* apps launcher next to chat box */
 .buttons_d0696b > button, /* nitro gift button in chat box */
 .buttons_d0696b > div:nth-child(3) /* sticker button in chat box */
 {
