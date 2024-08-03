@@ -1,15 +1,17 @@
 ## This is the configuration file for index_camera_passthrough.
-## This file should live at ~/.config/index_camera_passthrough.toml
+## This file should live at ~/.config/index_camera_passthrough/index_camera_passthrough.toml
 
-backend = "openvr"
+## This is your selected backend
+## possible values: "openxr" | "openvr"
+backend="openxr"
 
 ## camera device to use. auto detect if not set
-camera_device = ""
+# camera_device = "/dev/video0"
 
 ## which button should toggle the overlay visibility. press things
 ## button on both controllers to toggle the overlay.
 ## possible values: "Menu" | "Grip" | "Trigger" | "A" | "B"
-toggle_button = "Menu"
+toggle_button = "B"
 
 ## how long does the button need to be held before the overlay open,
 ## closing the overlay is always instantaneous
@@ -19,12 +21,13 @@ open_delay = "0s"
 ## how will the overlay be positioned.
 ## possible values:
 ##   - "Hmd":      stay in front of your Hmd
+##   - "Sticky":   will remain in place upon the location of activation
 ##   - "Absolute": fixed place in VR space
 mode = "Hmd"
 
 ## how far away should the overlay be placed
 ## only meaningful if mode is "Hmd"
-distance = 1.0
+distance = 0.7
 
 ## transformation matrix for absolute position, column-major
 ## only meaningful if mode is "Absolute"
@@ -36,11 +39,11 @@ distance = 1.0
 ##   - "Stereo": show a 3D image, how much you can see is limited by how
 ##               big the overlay is in your field of view.
 ##   - "Flat":   show a flat image
-mode = "Flat"
+mode = "Stereo"
 
 ## which camera's image to display in Flat mode
 ## only meaningful if mode is "Flat"
-eye = "Left"
+# eye = "Left"
 
 ## Because your eyes and the cameras are at different physical locations, it is impossible
 ## to project camera view into VR space perfectly. There are trade offs approximating
@@ -55,4 +58,4 @@ eye = "Left"
 ##                   have the right scale in this mode, but the viewing range is smaller.
 ##
 ## only available if mode is "Stereo"
-# projection_mode = "FromCamera"
+projection_mode = "FromEye"
