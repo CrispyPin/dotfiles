@@ -23,14 +23,12 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.copyWithSyntaxHighlighting": false,
     "terminal.integrated.defaultProfile.linux": "fish",
-    "editor.renderWhitespace": "all",
     "terminal.integrated.fontFamily": "monospace",
     "markdown.preview.fontFamily": "sans",
     "rust-analyzer.cargo.buildScripts.enable": true,
     "editor.fontLigatures": true,
     "redhat.telemetry.enabled": false,
     "files.trimTrailingWhitespace": true,
-    "editor.formatOnSave": true,
     "omnisharp.useModernNet": false,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
@@ -45,5 +43,8 @@
     "markdown.preview.breaks": true,
     "git.openRepositoryInParentFolders": "always",
     "window.zoomLevel": 1,
-    "editor.minimap.renderCharacters": false
+    "editor.minimap.renderCharacters": false,
+    "zig.path": "zig",
+    "zig.zls.path": "/home/crispypin/.config/VSCodium/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+    "zig.initialSetupDone": true
 }

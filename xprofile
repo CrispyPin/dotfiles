@@ -1,44 +1,20 @@
 #setxkbmap -layout se
 
-# DisplayPort-1 is for the VR headset
+# DisplayPort-1 is for the index
 
+# triple setup
+#xrandr \
+#--output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --set TearFree on \
+#--output DisplayPort-1 --off \
+#--output HDMI-A-1 --mode 1920x1080 --pos 0x0 --rotate normal --set TearFree on \
+#--output VGA-1-1 --mode 1280x1024 --pos 3840x0 --rotate normal
+
+# no left screen, 2-monitor setup
 xrandr \
 --output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --set TearFree on \
 --output DisplayPort-1 --off \
---output HDMI-A-1 --mode 1920x1080 --pos 0x0 --rotate normal --set TearFree on \
+--output HDMI-A-1 --off \
 --output VGA-1-1 --mode 1280x1024 --pos 3840x0 --rotate normal
-
-# if left screen is missing, try the 2-monitor setup
-if [ $? ]; then
-	xrandr \
-	--output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --set TearFree on \
-	--output DisplayPort-1 --off \
-	--output HDMI-A-1 --off \
-	--output VGA-1-1 --mode 1280x1024 --pos 3840x0 --rotate normal
-fi
-
-
-# VGA doesn't allow tearfree :(
-
-#### old configs
-
-# xrandr \
-# --output DisplayPort-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --set TearFree on \
-# --output DisplayPort-1 --off \
-# --output HDMI-A-0 --mode 1280x1024 --pos 3840x0 --rotate normal --set TearFree on \
-# --output VGA-1-1 --mode 1920x1080 --pos 0x0 --rotate normal
-
-# --output DisplayPort-4 --mode 1920x1080 --pos 0x0 --rotate normal --set TearFree on \
-
-
-
-# xrandr
-#  --output DisplayPort-0 --off
-#  --output DisplayPort-1 --off
-#  --output DisplayPort-2 --off
-#  --output HDMI-A-0 --mode 1280x1024 --pos 1920x56 --rotate normal
-#  --output DisplayPort-3 --mode 1920x1080 --pos 0x0 --rotate normal
-#  --output DisplayPort-4 --off
 
 # bind super to super+esc, for menubar toggle with one key
 xcape -e "Super_L=Super_L|Escape"

@@ -29,6 +29,7 @@
     ~/.config/vesktop/settings/quickCss.css: vencord.css
     ~/.config/VSCodium/User/settings.json: vscodium.json
     ~/.config/warpd/config: warpd_config
+    ~/.config/wlxoverlay: wlxoverlay
     ~/.local/share/ovr-utils/overlay_data.json: ovr-utils/overlay_data.json
     ~/.steam/debian-installation/steamapps/common/Logic World/componentrestrictions.succ: steam/Logic World/componentrestrictions.succ
     ~/.steam/debian-installation/steamapps/common/Logic World/FavoriteSimulationSpeeds.succ: steam/Logic World/FavoriteSimulationSpeeds.succ

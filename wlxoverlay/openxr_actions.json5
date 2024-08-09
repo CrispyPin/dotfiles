@@ -44,8 +44,7 @@
       right: "/user/hand/right/input/trigger/value"
     },
     alt_click: {
-      // left trackpad is space_drag
-      right: "/user/hand/right/input/trackpad/force",
+      //right: "/user/hand/right/input/trackpad/force",
     },
     grab: {
       left: "/user/hand/left/input/squeeze/force",
@@ -60,9 +59,8 @@
       right: "/user/hand/right/input/system/click",
     },
     space_drag: {
-      left: "/user/hand/left/input/a/click",
-      right: "/user/hand/right/input/a/click",
-      // right trackpad is alt_click
+      left: "/user/hand/left/input/trackpad/force",
+      right: "/user/hand/right/input/trackpad/force",
     },
     click_modifier_right: {
       left: "/user/hand/left/input/b/touch",
