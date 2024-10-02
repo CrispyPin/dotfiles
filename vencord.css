@@ -10,7 +10,7 @@ https://github.com/ETBCOR/nasin-nanpa/releases
     --font-code: Consolas, monospace, "nasin-nanpa";
 }
 
-.scroller_fea3ef.none_c49869.scrollerBase_c49869 > .listItem_c96c45, /* server discovery button */
+.footer_aa1bff, /* server discovery button */
 .privateChannels_f0963d .channel_c91bad.container_d91ad9:nth-child(4), /* shop button in DM page */
 .privateChannels_f0963d .channel_c91bad.container_d91ad9:nth-child(3), /* nitro button in DM page */
 .channelAppLauncher_df39bd, /* apps launcher next to chat box */
