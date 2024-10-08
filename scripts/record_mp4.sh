@@ -22,7 +22,9 @@ logfile="/tmp/screen_recorder_ffmpeg.log"
 H=$(( $H - $H%2 ))
 W=$(( $W - $W%2 ))
 
-ffmpeg -y -video_size "$W"x"$H" -f x11grab -framerate 60 \
+dummy_audio="-f lavfi -i anullsrc=cl=mono"
+
+ffmpeg -y $dummy_audio -video_size "$W"x"$H" -f x11grab -framerate 60 \
 -i $DISPLAY+$X,$Y -pix_fmt yuv420p $videofile 2> $logfile &
 
 # store pid so that recording can be stopped next time the script is run

@@ -14,7 +14,7 @@ https://github.com/ETBCOR/nasin-nanpa/releases
 .privateChannels_f0963d .channel_c91bad.container_d91ad9:nth-child(4), /* shop button in DM page */
 .privateChannels_f0963d .channel_c91bad.container_d91ad9:nth-child(3), /* nitro button in DM page */
 .channelAppLauncher_df39bd, /* apps launcher next to chat box */
-.buttons_d0696b > button, /* nitro gift button in chat box */
+.container_efde15, /* nitro gift button in chat box */
 .buttons_d0696b > div:nth-child(3) /* sticker button in chat box */
 {
     display: none;

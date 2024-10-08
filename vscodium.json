@@ -23,7 +23,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.copyWithSyntaxHighlighting": false,
     "terminal.integrated.defaultProfile.linux": "fish",
-    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "Liberation Mono, monospace",
     "markdown.preview.fontFamily": "sans",
     "rust-analyzer.cargo.buildScripts.enable": true,
     "editor.fontLigatures": true,
@@ -46,5 +46,6 @@
     "editor.minimap.renderCharacters": false,
     "zig.path": "zig",
     "zig.zls.path": "/home/crispypin/.config/VSCodium/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
-    "zig.initialSetupDone": true
+    "zig.initialSetupDone": true,
+    "editor.minimap.enabled": false
 }
