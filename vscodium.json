@@ -13,14 +13,11 @@
     "editor.hover.delay": 10,
     "workbench.hover.delay": 50,
     "window.menuBarVisibility": "toggle",
-    "liveServer.settings.root": "docs/",
-    "liveServer.settings.donotVerifyTags": true,
     "editor.insertSpaces": false,
     "editor.fontFamily": "Liberation Mono , \"-Wingdings\",\"-linja lipamanka\", sasns, mono, \"nasin\\-nanpa\"",
     "Lua.workspace.library": [
         "~/proj/forks/awesome"
     ],
-    "liveServer.settings.donotShowInfoMsg": true,
     "editor.copyWithSyntaxHighlighting": false,
     "terminal.integrated.defaultProfile.linux": "fish",
     "terminal.integrated.fontFamily": "Liberation Mono, monospace",
@@ -30,10 +27,6 @@
     "redhat.telemetry.enabled": false,
     "files.trimTrailingWhitespace": true,
     "omnisharp.useModernNet": false,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "workbench.colorTheme": "One Candy",
     "extensions.autoCheckUpdates": false,
     "extensions.autoUpdate": false,
     "zenMode.hideLineNumbers": false,
@@ -47,5 +40,22 @@
     "zig.path": "zig",
     "zig.zls.path": "/home/crispypin/.config/VSCodium/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
     "zig.initialSetupDone": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Monochrome",
+    "workbench.colorCustomizations": {
+        "[Monochrome]": {
+            "editorBracketHighlight.foreground1": "#8bf",
+            "editorBracketHighlight.foreground2": "#f9c",
+            "editorBracketHighlight.foreground3": "#fff",
+            "editor.lineHighlightBackground": "#324",
+            "editor.background": "#214",
+            "editor.foreground": "#fce"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monochrome]": {
+            "comments": "#aaa",
+            "strings": "#adf"
+        }
+    }
 }
