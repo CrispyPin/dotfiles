@@ -47,8 +47,8 @@
             "editorBracketHighlight.foreground1": "#8bf",
             "editorBracketHighlight.foreground2": "#f9c",
             "editorBracketHighlight.foreground3": "#fff",
-            "editor.lineHighlightBackground": "#324",
-            "editor.background": "#214",
+            "editor.lineHighlightBackground": "#345",
+            "editor.background": "#334",
             "editor.foreground": "#fce"
         }
     },
