@@ -44,12 +44,18 @@
     "workbench.colorTheme": "Monochrome",
     "workbench.colorCustomizations": {
         "[Monochrome]": {
+            "editor.foreground": "#fce",
+            "editor.background": "#282228",
+            "sideBar.background": "#282030",
+            "activityBar.background":"#334",
+            "statusBar.background": "#659",
+            "statusBarItem.remoteBackground": "#548",
+            "editor.lineHighlightBackground": "#334",
+            "input.background": "#345",
             "editorBracketHighlight.foreground1": "#8bf",
             "editorBracketHighlight.foreground2": "#f9c",
             "editorBracketHighlight.foreground3": "#fff",
-            "editor.lineHighlightBackground": "#345",
-            "editor.background": "#334",
-            "editor.foreground": "#fce"
+            "editorCursor.foreground": "#caf",
         }
     },
     "editor.tokenColorCustomizations": {
