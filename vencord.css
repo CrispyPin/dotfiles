@@ -10,12 +10,17 @@ https://github.com/ETBCOR/nasin-nanpa/releases
     --font-code: Consolas, monospace, "nasin-nanpa";
 }
 
-.footer_aa1bff, /* server discovery button */
-.privateChannels_f0963d .channel_c91bad.container_d91ad9:nth-child(4), /* shop button in DM page */
-.privateChannels_f0963d .channel_c91bad.container_d91ad9:nth-child(3), /* nitro button in DM page */
-.channelAppLauncher_df39bd, /* apps launcher next to chat box */
-.container_efde15, /* nitro gift button in chat box */
-.expression-picker-chat-input-button:nth-child(3) /* sticker button in chat box */
+/* server discovery button */
+.footer_f8ec41_,
+/* shop button in DM page */
+li.channel_c91bad.container_d91ad9:has(>div>a[href="/shop"]),
+/* nitro button in DM page */
+div:has(>li>div>a[href="/store"]),
+/* apps launcher next to chat box */
+.channelAppLauncher_df39bd,
+/* chat box buttons */
+button[aria-label="Send a gift"],
+button[aria-label="Open sticker picker"]
 {
     display: none;
 }
