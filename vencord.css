@@ -10,17 +10,45 @@ https://github.com/ETBCOR/nasin-nanpa/releases
     --font-code: Consolas, monospace, "nasin-nanpa";
 }
 
-/* server discovery button */
-.footer_d71945,
-/* shop button in DM page */
-li.channel_c91bad.container_d91ad9:has(>div>a[href="/shop"]),
-/* nitro button in DM page */
-div:has(>li>div>a[href="/store"]),
-/* apps launcher next to chat box */
-.channelAppLauncher_df39bd,
-/* chat box buttons */
+small {
+    font-size: 1em !important;
+    color: #dbf !important;
+}
+
+div[aria-label="Help"],
+.footer__214dc, /* server discovery button */
+div:has(>a[href="/store"]),
+div:has(>a[href="/shop"]),
+button[aria-label="Apps"],
 button[aria-label="Send a gift"],
 button[aria-label="Open sticker picker"]
 {
     display: none;
 }
+
+
+body {
+    /* rotate: 1deg; */
+    /* animation: spin 60s linear infinite; */
+    /* animation: squish 2s infinite; */
+}
+
+@keyframes squish {
+    0% {
+        scale: 80% 100%;
+    }
+    50% {
+        scale: 100% 80%;
+    }
+    100% {
+        scale: 80% 100%;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform:rotate(360deg);
+        /* scale: 0.8; */
+    }
+}
+
