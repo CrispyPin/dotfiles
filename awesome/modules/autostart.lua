@@ -9,7 +9,7 @@ end
 
 awful.spawn("picom -b")
 awful.spawn("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1") -- authentication popup for obs virtual camera etc
-awful.spawn("redshift")
+-- awful.spawn("redshift")
 awful.spawn("sxhkd")
 
 if not is_laptop then
