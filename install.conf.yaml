@@ -11,7 +11,8 @@
 - link:
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.config/awesome: awesome
-    ~/.config/blender: blender
+    ~/.config/blender/4.3/config/userpref.blend: blender/userpref.blend
+    ~/.config/blender/4.3/config/startup.blend: blender/startup.blend
     ~/.config/btop/btop.conf: btop.conf
     ~/.config/f3d: f3d
     ~/.config/fastfetch/config.conf: fastfetch.conf
